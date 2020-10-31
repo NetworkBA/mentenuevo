@@ -5,63 +5,18 @@
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap" rel="stylesheet">
-
-	<style type="text/css">
-		body {
-			font-family: 'Montserrat', sans-serif;
-		}
-
-		h1 {
-			font-family: 'Syne', sans-serif;
-		}
-
-		p {
-			text-align: justify;
-		}
-
-		p.vinculos2 {
-			color: white;
-		}
-
-		.encabezado {
-			font-family: 'Syne', sans-serif;
-			color: #FC6F68;
-		}
-
-		.navbar-nav {
-			color: white;
-		}
-
-
-		@media only screen and (max-width : 768px) {
-			.navbar-collapse {}
-		}
-
-		@media screen and (max-width: 600px) {
-			.section1 {
-				display: none;
-			}
-
-		}
-
-		@media screen and (min-width: 1023px) {
-			.section1_mobile {
-				display: none;
-			}
-		}
-	</style>
 	<title>Mente Cuatro Cero</title>
 </head>
 <body>
 	<div id="app" class="content">
 		<header-component></header-component>
-		<example-component></example-component>
+		<loginv-component></loginv-component>
 		<footer-component></footer-component>
 	</div>
+	<script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
 	<script src="{{asset('js/app.js')}}"></script>
 	<!--Añadimos el js generado con webpack, donde se encuentra nuestro componente vuejs-->
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

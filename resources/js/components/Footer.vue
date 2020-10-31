@@ -1,5 +1,8 @@
 <template>
-   	<div style="background-color: #333132;">
+   	<div style="background-color: #333132;  position: fixed;
+    height: 150px;
+    bottom: 0;
+    width: 100%;">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3 col-6 align-self-center" style="padding-top: 50px; padding-bottom: 50px;">
