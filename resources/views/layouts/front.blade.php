@@ -59,7 +59,7 @@
 <body>
 	<div id="app" class="content">
 		<header-component></header-component>
-		<example-component></example-component>
+		@yield('body')
 		<footer-component></footer-component>
 	</div>
 	<script src="{{asset('js/app.js')}}"></script>
