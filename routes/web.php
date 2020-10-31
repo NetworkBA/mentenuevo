@@ -17,6 +17,7 @@ Route::get('/', function () {
     return view('front.index');
 });
 
+<<<<<<< HEAD
 
 Route::get('/Login', function () {
     return view('login');
@@ -33,3 +34,8 @@ Route::get('/Contacto', function () {
     return view('contacto');
 });
 
+=======
+Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');
+>>>>>>> e948a1a16d38712dec5bb8cd1a3ef2c98bbf63f1
