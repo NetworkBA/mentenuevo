@@ -13,7 +13,10 @@
 <body>
 	<div id="app" class="content">
 		<header-component></header-component>
-		<registro-component></registro-component>
+		<form method="POST"  action="{{ route('register') }}">
+			 @csrf
+			 <registro-component></registro-component>
+		</form>
 		<footer-component></footer-component>
 	</div>
 	<script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>

@@ -2368,6 +2368,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log("Component mounted.");
@@ -38741,11 +38747,13 @@ var render = function() {
           _vm._v(" "),
           _vm._m(2),
           _vm._v(" "),
-          _vm._m(3)
+          _vm._m(3),
+          _vm._v(" "),
+          _vm._m(4)
         ])
       ]),
       _vm._v(" "),
-      _vm._m(4)
+      _vm._m(5)
     ])
   ])
 }
@@ -38757,7 +38765,10 @@ var staticRenderFns = [
     return _c("div", { staticClass: "form-group" }, [
       _c("label", { attrs: { for: "Usuario" } }, [_vm._v("Nombre")]),
       _vm._v(" "),
-      _c("input", { staticClass: "form-control", attrs: { id: "Usuario" } })
+      _c("input", {
+        staticClass: "form-control",
+        attrs: { id: "Usuario", name: "name" }
+      })
     ])
   },
   function() {
@@ -38769,7 +38780,10 @@ var staticRenderFns = [
         _vm._v("Correo Electrónico")
       ]),
       _vm._v(" "),
-      _c("input", { staticClass: "form-control", attrs: { id: "mail" } })
+      _c("input", {
+        staticClass: "form-control",
+        attrs: { id: "mail", name: "email" }
+      })
     ])
   },
   function() {
@@ -38781,7 +38795,26 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("input", {
         staticClass: "form-control",
-        attrs: { type: "password", id: "pass" }
+        attrs: { type: "password", id: "pass", name: "password" }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "form-group" }, [
+      _c("label", { attrs: { for: "password confirm" } }, [
+        _vm._v("Confirmar Contraseña")
+      ]),
+      _vm._v(" "),
+      _c("input", {
+        staticClass: "form-control",
+        attrs: {
+          type: "password",
+          id: "password_confirmation",
+          name: "password_confirmation"
+        }
       })
     ])
   },
@@ -38792,7 +38825,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "row" }, [
       _c("div", { staticClass: "col" }, [
         _c("div", { staticClass: "row justify-content-center" }, [
-          _vm._v("¿Ya tienes cuenta?")
+          _c("a", { attrs: { href: "/Login" } }, [_vm._v("¿Ya tienes cuenta?")])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "row" }, [
@@ -38801,7 +38834,7 @@ var staticRenderFns = [
             {
               staticClass: "btn btn-primary mx-auto btn-lg",
               staticStyle: { "background-color": "#76cee6" },
-              attrs: { type: "button" }
+              attrs: { type: "submit" }
             },
             [_vm._v("\n                Registrarme\n              ")]
           )
@@ -51584,8 +51617,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\TIKS\Paginas\MenteCuatroCero\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\TIKS\Paginas\MenteCuatroCero\resources\css\app.css */"./resources/css/app.css");
+__webpack_require__(/*! /home/leo/Documentos/GitHub/mentecuatropuntocero/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /home/leo/Documentos/GitHub/mentecuatropuntocero/resources/css/app.css */"./resources/css/app.css");
 
 
 /***/ })

@@ -15,27 +15,33 @@
           </div>
           <div class="form-group">
             <label for="Usuario">Nombre</label>
-            <input class="form-control" id="Usuario" />
+            <input class="form-control" id="Usuario" name="name" />
           </div>
           <div class="form-group">
             <label type="email" for="mail">Correo Electrónico</label>
-            <input class="form-control" id="mail" />
+            <input class="form-control" id="mail" name="email" />
           </div>
           <div class="form-group">
             <label for="pass">Contraseña</label>
-            <input type="password" class="form-control" id="pass" />
+            <input type="password" class="form-control" id="pass" name="password" />
+          </div>
+          <div class="form-group">
+            <label for="password confirm">Confirmar Contraseña</label>
+            <input type="password" class="form-control" id="password_confirmation" name="password_confirmation" />
           </div>
           <div class="row">
             <div class="col">
-              <div class="row justify-content-center">¿Ya tienes cuenta?</div>
+              <div class="row justify-content-center"><a href="/Login">¿Ya tienes cuenta?</a></div>
               <div class="row">
                 <button
-                  type="button"
+                  type="submit"
                   class="btn btn-primary mx-auto btn-lg"
                   style="background-color: #76cee6"
                 >
                   Registrarme
-                </button>
+                </button> 
+
+
               </div>
             </div>
           </div>
