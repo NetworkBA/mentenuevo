@@ -15,19 +15,19 @@
           </div>
           <div class="form-group">
             <label for="Usuario">Nombre</label>
-            <input class="form-control" id="Usuario" name="name" />
+            <input class="form-control" id="Usuario" name="name"  required autofocus autocomplete="name" />
           </div>
           <div class="form-group">
             <label type="email" for="mail">Correo Electrónico</label>
-            <input class="form-control" id="mail" name="email" />
+            <input class="form-control" id="mail" name="email"  required />
           </div>
           <div class="form-group">
             <label for="pass">Contraseña</label>
-            <input type="password" class="form-control" id="pass" name="password" />
+            <input type="password" class="form-control" id="pass" name="password"  required  autocomplete="new-password" />
           </div>
           <div class="form-group">
             <label for="password confirm">Confirmar Contraseña</label>
-            <input type="password" class="form-control" id="password_confirmation" name="password_confirmation" />
+            <input type="password" class="form-control" id="password_confirmation" name="password_confirmation"  required autocomplete="new-password" />
           </div>
           <div class="row">
             <div class="col">

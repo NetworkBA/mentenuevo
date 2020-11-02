@@ -38767,7 +38767,13 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("input", {
         staticClass: "form-control",
-        attrs: { id: "Usuario", name: "name" }
+        attrs: {
+          id: "Usuario",
+          name: "name",
+          required: "",
+          autofocus: "",
+          autocomplete: "name"
+        }
       })
     ])
   },
@@ -38782,7 +38788,7 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("input", {
         staticClass: "form-control",
-        attrs: { id: "mail", name: "email" }
+        attrs: { id: "mail", name: "email", required: "" }
       })
     ])
   },
@@ -38795,7 +38801,13 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("input", {
         staticClass: "form-control",
-        attrs: { type: "password", id: "pass", name: "password" }
+        attrs: {
+          type: "password",
+          id: "pass",
+          name: "password",
+          required: "",
+          autocomplete: "new-password"
+        }
       })
     ])
   },
@@ -38813,7 +38825,9 @@ var staticRenderFns = [
         attrs: {
           type: "password",
           id: "password_confirmation",
-          name: "password_confirmation"
+          name: "password_confirmation",
+          required: "",
+          autocomplete: "new-password"
         }
       })
     ])
