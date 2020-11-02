@@ -1974,6 +1974,10 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log("Component mounted.");
@@ -37998,10 +38002,11 @@ var staticRenderFns = [
                   _c("input", {
                     staticClass: "form-check-input",
                     attrs: {
+                      required: "",
                       type: "radio",
-                      name: "inlineRadioOptions",
+                      name: "id_tipo",
                       id: "inlineRadio1",
-                      value: "option1"
+                      value: "2"
                     }
                   }),
                   _vm._v(" "),
@@ -38019,10 +38024,11 @@ var staticRenderFns = [
                   _c("input", {
                     staticClass: "form-check-input",
                     attrs: {
+                      required: "",
                       type: "radio",
-                      name: "inlineRadioOptions",
+                      name: "id_tipo",
                       id: "inlineRadio2",
-                      value: "option2"
+                      value: "3"
                     }
                   }),
                   _vm._v(" "),
@@ -38044,7 +38050,13 @@ var staticRenderFns = [
                 _vm._v(" "),
                 _c("input", {
                   staticClass: "form-control",
-                  attrs: { id: "name" }
+                  attrs: {
+                    id: "name",
+                    name: "nombre",
+                    required: "",
+                    autofocus: "",
+                    autocomplete: "name"
+                  }
                 })
               ]),
               _vm._v(" "),
@@ -38053,7 +38065,12 @@ var staticRenderFns = [
                 _vm._v(" "),
                 _c("input", {
                   staticClass: "form-control",
-                  attrs: { type: "email", id: "na" }
+                  attrs: {
+                    type: "email",
+                    id: "na",
+                    name: "email",
+                    required: ""
+                  }
                 })
               ])
             ]),
@@ -38063,7 +38080,12 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("textarea", {
                 staticClass: "form-control",
-                attrs: { id: "ta", "aria-label": "With textarea" }
+                attrs: {
+                  id: "ta",
+                  name: "mensaje",
+                  "aria-label": "With textarea",
+                  required: ""
+                }
               })
             ]),
             _vm._v(" "),
@@ -38073,7 +38095,7 @@ var staticRenderFns = [
                 {
                   staticClass: "btn btn-primary mx-auto btn-lg",
                   staticStyle: { "background-color": "#76cee6" },
-                  attrs: { type: "button" }
+                  attrs: { type: "submit" }
                 },
                 [_vm._v("\n          Enviar\n        ")]
               )
@@ -38524,7 +38546,7 @@ var staticRenderFns = [
                       "a",
                       {
                         staticClass: "nav-link menu",
-                        attrs: { href: "/Contacto" }
+                        attrs: { href: "/contacto" }
                       },
                       [_vm._v("Contacto")]
                     )

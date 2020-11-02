@@ -1,8 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\testController;
-
+use App\Http\Controllers\ContactosController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -30,12 +29,14 @@ Route::get('/Registro', function () {
 Route::get('/Formulario', function () {
     return view('formulario');
 });
-Route::get('/Contacto', function () {
-    return view('contacto');
-});
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
 
-Route::post('/testRequest',[testController::class,'testRequest'])->name('test');
+
+//rutas de contactos
+Route::get('/contacto',[ContactosController::class,'create'])->name('contacto.crear');
+Route::post('/contacto/store',[ContactosController::class,'store'])->name('contacto.store');
+Route::get('/contacto/mostrar',[ContactosController::class,'index'])->name('contacto.index');
+

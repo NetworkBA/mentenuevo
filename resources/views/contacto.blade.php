@@ -13,7 +13,12 @@
 <body>
 	<div id="app" class="content">
 		<header-component></header-component>
-		<contacto-component></contacto-component>
+		@include('flash-message')
+
+		<form action="{{ route('contacto.store') }}" method='POST' >
+		   @csrf
+			<contacto-component></contacto-component>
+		</form>
 		<footer-component></footer-component>
 	</div>
 	<script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
