@@ -39,7 +39,7 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 
 
 //rutas de contactos
-Route::get('/contacto',[ContactosController::class,'create'])->name('contacto.crear');
+Route::get('/contactoCrear',[ContactosController::class,'create'])->name('contacto.crear');
 Route::post('/contacto/store',[ContactosController::class,'store'])->name('contacto.store');
 Route::get('/contacto/listar',[ContactosController::class,'index'])->name('contacto.index');
 
@@ -52,9 +52,9 @@ Route::get('/contacto/listar',[ContactosController::class,'index'])->name('conta
     //rutas de manejo de usuarios
 
     //Especialistas
-    Route::get('/especialista/crear',[EspecialistasController::class,'create'])->name('especialista.crear');
+ /*   Route::get('/especialista/crear',[EspecialistasController::class,'create'])->name('especialista.crear');
     Route::post('/especialista/store',[EspecialistasController::class,'store'])->name('especialista.store');
-    Route::get('/especialista/listar',[EspecialistasController::class,'index'])->name('especialista.index');
-    Route::get('/especialista/ver',[EspecialistasController::class,'show'])->name('especialista.ver');
-
+    Route::get('/especialista/mostrar',[EspecialistasController::class,'index'])->name('especialista.index');
+    Route::get('/especialista/ver/{id}',[EspecialistasController::class,'show'])->name('especialista.ver');
+*/
 //});

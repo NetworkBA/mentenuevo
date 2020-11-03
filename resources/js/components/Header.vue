@@ -37,7 +37,7 @@
               <a class="nav-link menu" href="/planes">Planes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link menu" href="/contacto">Contacto</a>
+              <a class="nav-link menu" href="/contacto/crear">Contacto</a>
             </li>
           </ul>
           <ul class="navbar-nav">
