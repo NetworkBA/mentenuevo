@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\Models\User;
+use App\Models\User;
 
 class EspecialistasController extends Controller
 {
@@ -14,10 +14,10 @@ class EspecialistasController extends Controller
      */
     public function index()
     {
-        $especialistas = User::where('id',2)-get();
-        dd($especialistas);
+        $especialistas = User::where('id_tipo',2)->get();
+        //dd($especialistas);
 
-       // return $especialistas;
+        return $especialistas;
     }
 
     /**
@@ -66,8 +66,8 @@ class EspecialistasController extends Controller
     public function show($id)
     {
         $especialista = User::find($id);
-        //dd($especialista);
-        return $especialista;
+        dd($especialista);
+        //return $especialista;
     }
 
     /**

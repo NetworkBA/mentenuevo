@@ -53,7 +53,8 @@ class ContactosController extends Controller
     public function show($id)
     {
         $contacto = contacto::find($id);
-        return $contacto;
+        dd($contacto);
+        //return $contacto;
     }
 
     /**

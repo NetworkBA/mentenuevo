@@ -38546,7 +38546,7 @@ var staticRenderFns = [
                       "a",
                       {
                         staticClass: "nav-link menu",
-                        attrs: { href: "/contacto/crear" }
+                        attrs: { href: "/contacto" }
                       },
                       [_vm._v("Contacto")]
                     )
