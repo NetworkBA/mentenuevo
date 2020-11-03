@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactosController;
 use App\Http\Controllers\EspecialistasController;
-
+use App\Http\Controllers\PacientesController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -48,7 +48,10 @@ Route::post('/contacto/store',[ContactosController::class,'store'])->name('conta
     //rutas de contactos
     Route::get('/contacto/ver/{id}',[ContactosController::class,'show'])->name('especialista.ver');
     Route::get('/contacto/listar',[ContactosController::class,'index'])->name('contacto.index');
-
+    Route::get('/contacto/editar/{id}',[ContactosController::class,'edit'])->name('contacto.editar');
+    Route::post('/contacto/actualizar',[ContactosController::class,'update'])->name('contacto.actualizar');
+    Route::delete('/contacto/eliminar/{id}',[ContactosController::class,'destroy'])->name('contacto.eliminar');    
+    Route::view( 'vista/eliminar','eliminarContacto');
     //rutas de manejo de usuarios
 
     //Especialistas
@@ -56,5 +59,17 @@ Route::post('/contacto/store',[ContactosController::class,'store'])->name('conta
     Route::post('/especialista/store',[EspecialistasController::class,'store'])->name('especialista.store');
     Route::get('/especialista/listar',[EspecialistasController::class,'index'])->name('especialista.index');
     Route::get('/especialista/ver/{id}',[EspecialistasController::class,'show'])->name('especialista.ver');
+    Route::get('/especialista/editar/{id}',[EspecialistasController::class,'edit'])->name('especialista.editar');
+    Route::post('/especialista/actualizar',[EspecialistasController::class,'update'])->name('especialista.actualizar');
+    Route::delete('/especialista/eliminar/{id}',[EspecialistasController::class,'destroy'])->name('especialista.eliminar');    
+
+    //Pacientes
+    Route::get('/paciente/crear',[PacientesController::class,'create'])->name('especialista.crear');
+    Route::post('/paciente/store',[PacientesController::class,'store'])->name('especialista.store');
+    Route::get('/paciente/listar',[PacientesController::class,'index'])->name('especialista.index');
+    Route::get('/paciente/ver/{id}',[PacientesController::class,'show'])->name('especialista.ver');
+    Route::get('/paciente/editar/{id}',[PacientesController::class,'edit'])->name('especialista.editar');
+    Route::post('/paciente/actualizar',[PacientesController::class,'update'])->name('especialista.actualizar');
+    Route::delete('/paciente/eliminar/{id}',[PacientesController::class,'destroy'])->name('especialista.eliminar');    
 
 //});

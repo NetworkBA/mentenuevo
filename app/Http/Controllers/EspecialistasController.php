@@ -7,11 +7,6 @@ use App\Models\User;
 
 class EspecialistasController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function index()
     {
         $especialistas = User::where('id_tipo',2)->get();
@@ -20,11 +15,6 @@ class EspecialistasController extends Controller
         return $especialistas;
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function create()
     {
        // return view('Especialistas.crear');
@@ -32,17 +22,11 @@ class EspecialistasController extends Controller
        return "formulario para crear especialista";
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
     public function store(Request $request)
     {
         User::create([
             'name'              => $request->name,
-            'id_tipo'           => $request->id_tipo,    
+            'id_tipo'           => 2,    
             'email'             => $request->email,
             'password'          => $request->password,
             'apellido'          => $request->apellido,
@@ -51,18 +35,13 @@ class EspecialistasController extends Controller
             'telefono'          => $request->telefono,
             'fecha_nacimiento'  => $request->fecha_nacimiento,
             'especialidad'      => $request->especialidad,
-            'id_motivo'         => $request->id_motivo
         ]);
-        return back()->with('success','Se han creado un nuevo Especialista.');
-
+        //return back()->with('success','Se ha creado un nuevo Especialista.');
+        return response()->json([
+            'estatus' => 'Exitoso',
+            'mensaje' => 'success','Se ha creado un nuevo Especialista.']);
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function show($id)
     {
         $especialista = User::find($id);
@@ -70,12 +49,6 @@ class EspecialistasController extends Controller
         //return $especialista;
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function edit($id)
     {
         $especialista = User::find($id);
@@ -83,13 +56,6 @@ class EspecialistasController extends Controller
         return view('Especialista.editar',compact('$especialista'));
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function update(Request $request, $id)
     {
         $especialista = User::find($id);
@@ -107,20 +73,20 @@ class EspecialistasController extends Controller
         $especialista->id_motivo        = $request->id_motivo;
         $especialista->save();
 
-        return back()->with('success','Se han actualizado los detos del Especialista.');
-
+        //return back()->with('success','Se han actualizado los detos del Especialista.');
+        return response()->json([
+            'estatus' => 'Exitoso',
+            'mensaje' => 'success','Se han actualizado los detos del Especialista.']);
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function destroy($id)
     {
-        //
-        return back()->with('success','Se ha eliminado el Especialista con id $id.');
+        $especialista = Especialista::findOrFail($id);
+        $especialista->delete();
 
+        //return back()->with('success','Se ha eliminado el Especialista con id $id.');
+        return response()->json([
+            'estatus' => 'Exitoso',
+            'mensaje' => 'success','Se ha eliminado el Especialista con id $id.']);
     }
 }
