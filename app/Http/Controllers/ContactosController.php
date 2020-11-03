@@ -15,7 +15,7 @@ class ContactosController extends Controller
     public function index()
     {
         $contactos = contacto::all();
-        return $contactos;    
+        return $contactos; 
     }
 
     /**
@@ -95,5 +95,7 @@ class ContactosController extends Controller
     public function destroy($id)
     {
         //
+        return back()->with('success','Se ha eliminado el contacto con id $id.');
+
     }
 }
