@@ -38662,7 +38662,10 @@ var staticRenderFns = [
     return _c("div", { staticClass: "form-group" }, [
       _c("label", { attrs: { for: "Usuario" } }, [_vm._v("Usuario")]),
       _vm._v(" "),
-      _c("input", { staticClass: "form-control", attrs: { id: "Usuario" } })
+      _c("input", {
+        staticClass: "form-control",
+        attrs: { id: "Usuario", name: "email" }
+      })
     ])
   },
   function() {
@@ -38674,7 +38677,7 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("input", {
         staticClass: "form-control",
-        attrs: { type: "password", id: "pass" }
+        attrs: { type: "password", id: "pass", name: "password" }
       })
     ])
   },
@@ -38706,7 +38709,7 @@ var staticRenderFns = [
             {
               staticClass: "btn btn-success mx-auto btn-lg",
               staticStyle: { "background-color": "#27cc9a" },
-              attrs: { type: "button" }
+              attrs: { type: "submit" }
             },
             [_vm._v("\n                Success\n              ")]
           )

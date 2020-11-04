@@ -20,11 +20,11 @@
           </div>
           <div class="form-group">
             <label for="Usuario">Usuario</label>
-            <input class="form-control" id="Usuario" />
+            <input class="form-control" id="Usuario" name="email"/>
           </div>
           <div class="form-group">
             <label for="pass">Contraseña</label>
-            <input type="password" class="form-control" id="pass" />
+            <input type="password" class="form-control" id="pass" name="password" />
           </div>
           <div class="row">
             <div class="col">
@@ -40,7 +40,7 @@
               </div>
               <div class="row">
                 <button
-                  type="button"
+                  type="submit"
                   class="btn btn-success mx-auto btn-lg"
                   style="background-color: #27cc9a"
                 >
