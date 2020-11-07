@@ -38611,16 +38611,21 @@ var render = function() {
           _vm._v(" "),
           _c("div", { staticClass: "row" }, [
             _c("div", { staticClass: "col" }, [
-              _c(
-                "div",
-                { staticClass: "row justify-content-center" },
-                [
-                  _c("ion-icon", { attrs: { name: "logo-facebook" } }),
-                  _vm._v(" "),
-                  _c("ion-icon", { attrs: { name: "logo-google" } })
-                ],
-                1
-              ),
+              _c("div", { staticClass: "row justify-content-center" }, [
+                _c(
+                  "a",
+                  { attrs: { href: "login/facebook" } },
+                  [_c("ion-icon", { attrs: { name: "logo-facebook" } })],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "a",
+                  { attrs: { href: "login/google" } },
+                  [_c("ion-icon", { attrs: { name: "logo-google" } })],
+                  1
+                )
+              ]),
               _vm._v(" "),
               _c("div", { staticClass: "row justify-content-center" }, [
                 _vm._v("ó usa tu cuenta")
@@ -38749,16 +38754,21 @@ var render = function() {
           _vm._v(" "),
           _c("div", { staticClass: "row" }, [
             _c("div", { staticClass: "col" }, [
-              _c(
-                "div",
-                { staticClass: "row justify-content-center" },
-                [
-                  _c("ion-icon", { attrs: { name: "logo-facebook" } }),
-                  _vm._v(" "),
-                  _c("ion-icon", { attrs: { name: "logo-google" } })
-                ],
-                1
-              ),
+              _c("div", { staticClass: "row justify-content-center" }, [
+                _c(
+                  "a",
+                  { attrs: { href: "register/facebook" } },
+                  [_c("ion-icon", { attrs: { name: "logo-facebook" } })],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "a",
+                  { attrs: { href: "register/google" } },
+                  [_c("ion-icon", { attrs: { name: "logo-google" } })],
+                  1
+                )
+              ]),
               _vm._v(" "),
               _c("div", { staticClass: "row justify-content-center" }, [
                 _vm._v("ó usa tu correo para registrarte")

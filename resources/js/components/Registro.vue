@@ -7,8 +7,8 @@
           <div class="row">
             <div class="col">
               <div class="row justify-content-center">
-                <ion-icon name="logo-facebook"></ion-icon>
-                <ion-icon name="logo-google"></ion-icon>
+                <a href="register/facebook"><ion-icon name="logo-facebook"></ion-icon></a>  
+                <a href="register/google"><ion-icon name="logo-google"></ion-icon></a>
               </div>
               <div class="row justify-content-center">ó usa tu correo para registrarte</div>
             </div>
