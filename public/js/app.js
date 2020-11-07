@@ -38757,14 +38757,14 @@ var render = function() {
               _c("div", { staticClass: "row justify-content-center" }, [
                 _c(
                   "a",
-                  { attrs: { href: "register/facebook" } },
+                  { attrs: { href: "login/facebook" } },
                   [_c("ion-icon", { attrs: { name: "logo-facebook" } })],
                   1
                 ),
                 _vm._v(" "),
                 _c(
                   "a",
-                  { attrs: { href: "register/google" } },
+                  { attrs: { href: "login/google" } },
                   [_c("ion-icon", { attrs: { name: "logo-google" } })],
                   1
                 )

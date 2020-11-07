@@ -5,7 +5,6 @@ use App\Http\Controllers\ContactosController;
 use App\Http\Controllers\EspecialistasController;
 use App\Http\Controllers\PacientesController;
 use App\Http\Controllers\Auth\LoginController;
-use App\Actions\Fortify\CreateNewUser;
 
 
 /*
@@ -45,9 +44,6 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 Route::get('login/{driver}', [LoginController::class, 'redirectToProvider']);
 Route::get('login/{driver}/callback', [LoginController::class, 'handleProviderCallback']);
 
-//rutas para login con cuentas de facebook y google
-Route::get('register/{driver}', [CreateNewUser::class, 'redirectToProvider']);
-Route::get('register/{driver}/callback', [CreateNewUser::class, 'handleProviderCallback']);
 
 //rutas de contactos
 Route::get('/contacto/crear',[ContactosController::class,'create'])->name('contacto.crear');
