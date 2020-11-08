@@ -42460,7 +42460,72 @@ var render = function() {
                 attrs: { type: "submit" },
                 on: { click: _vm.GuardarContacto }
               },
+<<<<<<< HEAD
               [_vm._v("\n          Siguiente\n        ")]
+=======
+              [
+                _c("ul", { staticClass: "navbar-nav" }, [
+                  _c("li", { staticClass: "nav-item" }, [
+                    _c(
+                      "a",
+                      { staticClass: "nav-link menu", attrs: { href: "/" } },
+                      [_vm._v("Inicio")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", { staticClass: "nav-item" }, [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link menu",
+                        attrs: { href: "/perfiles" }
+                      },
+                      [_vm._v("Perfiles")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", { staticClass: "nav-item" }, [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link menu",
+                        attrs: { href: "/planes" }
+                      },
+                      [_vm._v("Planes")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", { staticClass: "nav-item" }, [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "nav-link menu",
+                        attrs: { href: "/contacto/crear" }
+                      },
+                      [_vm._v("Contacto")]
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("ul", { staticClass: "navbar-nav" }, [
+                  _c("li", [
+                    _c(
+                      "a",
+                      { staticClass: "nav-link", attrs: { href: "/Registro" } },
+                      [_vm._v("Registro")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "a",
+                      { staticClass: "nav-link", attrs: { href: "/Login" } },
+                      [_vm._v("Iniciar Sesión")]
+                    )
+                  ])
+                ])
+              ]
+>>>>>>> cb6598f610127eedf7f30f4974c36a816460aecd
             )
           ])
         ]
@@ -42486,8 +42551,27 @@ var staticRenderFns = [
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "row" }, [
+<<<<<<< HEAD
             _c("div", { staticClass: "form-group col-md-12" }, [
               _c("label", { attrs: { for: "con" } }, [_vm._v("Consultante:")]),
+=======
+            _c("div", { staticClass: "col" }, [
+              _c("div", { staticClass: "row justify-content-center" }, [
+                _c(
+                  "a",
+                  { attrs: { href: "login/facebook" } },
+                  [_c("ion-icon", { attrs: { name: "logo-facebook" } })],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "a",
+                  { attrs: { href: "login/google" } },
+                  [_c("ion-icon", { attrs: { name: "logo-google" } })],
+                  1
+                )
+              ]),
+>>>>>>> cb6598f610127eedf7f30f4974c36a816460aecd
               _vm._v(" "),
               _c("input", { staticClass: "form-control", attrs: { id: "con" } })
             ])
@@ -42501,6 +42585,7 @@ var staticRenderFns = [
             ])
           ]),
           _vm._v(" "),
+<<<<<<< HEAD
           _c("div", { staticClass: "row" }, [
             _c("div", { staticClass: "form-group col-md-12" }, [
               _c("label", { attrs: { for: "ps" } }, [_vm._v("Psicólogo/a:")]),
@@ -42510,12 +42595,49 @@ var staticRenderFns = [
           ])
         ]
       )
+=======
+          _vm._m(3)
+        ])
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "col", staticStyle: { "background-color": "#76cee6" } },
+      [
+        _c(
+          "span",
+          { staticClass: "align-middle mx-auto text-white align-self-center" },
+          [_vm._v("Bienvenido")]
+        )
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "form-group" }, [
+      _c("label", { attrs: { for: "Usuario" } }, [_vm._v("Usuario")]),
+      _vm._v(" "),
+      _c("input", {
+        staticClass: "form-control",
+        attrs: { id: "Usuario", name: "email" }
+      })
+>>>>>>> cb6598f610127eedf7f30f4974c36a816460aecd
     ])
   },
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
+<<<<<<< HEAD
     return _c("div", { staticClass: "row" }, [
       _c(
         "div",
@@ -42595,6 +42717,15 @@ var staticRenderFns = [
           ])
         ]
       )
+=======
+    return _c("div", { staticClass: "form-group" }, [
+      _c("label", { attrs: { for: "pass" } }, [_vm._v("Contraseña")]),
+      _vm._v(" "),
+      _c("input", {
+        staticClass: "form-control",
+        attrs: { type: "password", id: "pass", name: "password" }
+      })
+>>>>>>> cb6598f610127eedf7f30f4974c36a816460aecd
     ])
   },
   function() {
@@ -42602,6 +42733,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
+<<<<<<< HEAD
       _c(
         "div",
         {
@@ -42640,6 +42772,37 @@ var staticRenderFns = [
           ])
         ]
       )
+=======
+      _c("div", { staticClass: "col" }, [
+        _c("div", { staticClass: "row justify-content-center" }, [
+          _vm._v("Olvide mi contraseña")
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-primary mx-auto btn-lg",
+              staticStyle: { "background-color": "#76cee6" },
+              attrs: { type: "button" }
+            },
+            [_vm._v("\n                Primary\n              ")]
+          )
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-success mx-auto btn-lg",
+              staticStyle: { "background-color": "#27cc9a" },
+              attrs: { type: "submit" }
+            },
+            [_vm._v("\n                Success\n              ")]
+          )
+        ])
+      ])
+>>>>>>> cb6598f610127eedf7f30f4974c36a816460aecd
     ])
   }
 ]
@@ -42674,16 +42837,21 @@ var render = function() {
           _vm._v(" "),
           _c("div", { staticClass: "row" }, [
             _c("div", { staticClass: "col" }, [
-              _c(
-                "div",
-                { staticClass: "row justify-content-center" },
-                [
-                  _c("ion-icon", { attrs: { name: "logo-facebook" } }),
-                  _vm._v(" "),
-                  _c("ion-icon", { attrs: { name: "logo-google" } })
-                ],
-                1
-              ),
+              _c("div", { staticClass: "row justify-content-center" }, [
+                _c(
+                  "a",
+                  { attrs: { href: "login/facebook" } },
+                  [_c("ion-icon", { attrs: { name: "logo-facebook" } })],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "a",
+                  { attrs: { href: "login/google" } },
+                  [_c("ion-icon", { attrs: { name: "logo-google" } })],
+                  1
+                )
+              ]),
               _vm._v(" "),
               _c("div", { staticClass: "row justify-content-center" }, [
                 _vm._v("ó usa tu correo para registrarte")

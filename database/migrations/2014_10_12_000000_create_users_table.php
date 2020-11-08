@@ -25,7 +25,7 @@ class CreateUsersTable extends Migration
             $table->foreignId('id_tipo')->default(3);   
             $table->foreign('id_tipo')->references('id')->on('tipo_usuarios');
             $table->timestamp('email_verified_at')->nullable();
-            $table->string('password');
+            $table->string('password')->nullable();
             $table->rememberToken();
             $table->foreignId('current_team_id')->nullable();
             $table->text('profile_photo_path')->nullable();

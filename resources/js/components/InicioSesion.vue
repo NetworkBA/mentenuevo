@@ -12,19 +12,19 @@
           <div class="row">
             <div class="col">
               <div class="row justify-content-center">
-                <ion-icon name="logo-facebook"></ion-icon>
-                <ion-icon name="logo-google"></ion-icon>
+                <a href="login/facebook"><ion-icon name="logo-facebook"> </ion-icon></a>
+                <a href="login/google"> <ion-icon name="logo-google"></ion-icon></a>
               </div>
               <div class="row justify-content-center">ó usa tu cuenta</div>
             </div>
           </div>
           <div class="form-group">
             <label for="Usuario">Usuario</label>
-            <input class="form-control" id="Usuario" />
+            <input class="form-control" id="Usuario" name="email"/>
           </div>
           <div class="form-group">
             <label for="pass">Contraseña</label>
-            <input type="password" class="form-control" id="pass" />
+            <input type="password" class="form-control" id="pass" name="password" />
           </div>
           <div class="row">
             <div class="col">
@@ -40,7 +40,7 @@
               </div>
               <div class="row">
                 <button
-                  type="button"
+                  type="submit"
                   class="btn btn-success mx-auto btn-lg"
                   style="background-color: #27cc9a"
                 >

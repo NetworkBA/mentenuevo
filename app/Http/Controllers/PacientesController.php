@@ -6,79 +6,81 @@ use Illuminate\Http\Request;
 
 class PacientesController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+
     public function index()
     {
-        //
+        $pacientes = User::where('id_tipo',3)->get();
+
+        return $pacientes;
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function create()
     {
-        //
+      // return view('Paciente.crear');
+
+       return "formulario para crear pacientes";
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
     public function store(Request $request)
     {
-        //
+        User::create([
+            'name'              => $request->name,
+            'id_tipo'           => 3,    
+            'email'             => $request->email,
+            'password'          => $request->password,
+            'apellido'          => $request->apellido,
+            'nacionalidad'      => $request->nacionalidad,
+            'sexo'              => $request->sexo,
+            'telefono'          => $request->telefono,
+            'fecha_nacimiento'  => $request->fecha_nacimiento,
+            'id_motivo'         => $request->id_motivo
+        ]);
+        //return back()->with('success','Se ha creado un nuevo Especialista.');
+        return response()->json([
+            'estatus' => 'Exitoso',
+            'mensaje' => 'success','Se ha creado un nuevo Especialista.']);
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function show($id)
     {
-        //
+        $paciente = User::find($id);
+        return $paciente;
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function edit($id)
     {
-        //
+        $paciente = User::find($id);
+       // return view('paciente.editar', ['paciente'=>$paciente]);
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function update(Request $request, $id)
     {
-        //
+        $paciente = User::find($id);
+
+        $paciente->name             = $request->name;
+        $paciente->email            = $request->email;
+        $paciente->password         = $request->password;
+        $paciente->apellido         = $request->apellido;
+        $paciente->nacionalidad     = $request->nacionalidad;
+        $paciente->sexo             = $request->sexo;
+        $paciente->telefono         = $request->telefono;
+        $paciente->fecha_nacimiento = $request->fecha_nacimiento;
+        $paciente->id_motivo        = $request->id_motivo;
+        $paciente->save();
+
+        //return back()->with('success','Se han actualizado los detos del paciente.');
+        return response()->json([
+            'estatus' => 'Exitoso',
+            'mensaje' => 'success','Se han actualizado los detos del paciente.']);
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function destroy($id)
     {
-        //
+        $paciente = Paciente::findOrFail($id);
+        $paciente->delete();
+        //return back()->with('success','Se ha eliminado el Especialista con id $id.');
+        return response()->json([
+            'estatus' => 'Exitoso',
+            'mensaje' => 'success','Se ha eliminado el Paciente con id $id.']);
     }
 }
