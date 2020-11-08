@@ -6,6 +6,7 @@
           <div class="row justify-content-center">Registro</div>
           <div class="row">
             <div class="col">
+                    <!-- test -->
               <div class="row justify-content-center">
                 <a href="login/facebook"><ion-icon name="logo-facebook"></ion-icon></a>  
                 <a href="login/google"><ion-icon name="logo-google"></ion-icon></a>
