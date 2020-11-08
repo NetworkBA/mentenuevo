@@ -25,6 +25,12 @@ Vue.component('loginv-component', require('./components/InicioSesion.vue').defau
 Vue.component('registro-component', require('./components/Registro.vue').default);
 Vue.component('formulario-component', require('./components/Formulario.vue').default);
 Vue.component('contacto-component', require('./components/Contacto.vue').default);
+Vue.component('programainv-component', require('./components/ProgramaIntervencion.vue').default);
+Vue.component('sesiograma-component', require('./components/Sesiograma.vue').default);
+Vue.component('miniexamen-component', require('./components/MiniExamen.vue').default);
+
+
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application

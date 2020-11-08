@@ -18,19 +18,30 @@ use App\Http\Controllers\EspecialistasController;
 Route::get('/', function () {
     return view('front.index');
 });
-
-
 Route::get('/Login', function () {
     return view('login');
 });
-
 Route::get('/Registro', function () {
     return view('Registro');
 });
-
+Route::get('/Contacto', function () {
+    return view('contacto');
+});
 Route::get('/Formulario', function () {
     return view('formulario');
 });
+Route::get('/ProgramaIn', function () {
+    return view('Programain');
+});
+
+Route::get('/Sesiograma', function () {
+    return view('sesiograma');
+});
+
+Route::get('/MiniExamen', function () {
+    return view('miniexamen');
+});
+
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');

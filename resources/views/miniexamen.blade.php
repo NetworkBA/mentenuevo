@@ -13,8 +13,8 @@
 <body>
 	<div id="app" class="content">
 		<header-component></header-component>
-			 <registro-component></registro-component>
-		<footer-component></footer-component>
+		<miniexamen-component></miniexamen-component>
+	
 	</div>
 	<script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
 	<script src="{{asset('js/app.js')}}"></script>
