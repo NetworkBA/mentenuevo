@@ -52,8 +52,8 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 })->name('dashboard');
 
 //rutas para login con cuentas de facebook y google
-Route::get('login/{driver}', [LoginController::class, 'redirectToProvider']);
-Route::get('login/{driver}/callback', [LoginController::class, 'handleProviderCallback']);
+//Route::get('login/{driver}', [LoginController::class, 'redirectToProvider']);
+//Route::get('login/{driver}/callback', [LoginController::class, 'handleProviderCallback']);
 
 
 //rutas de contactos
