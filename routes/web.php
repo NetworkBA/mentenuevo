@@ -5,7 +5,7 @@ use App\Http\Controllers\ContactosController;
 use App\Http\Controllers\EspecialistasController;
 use App\Http\Controllers\PacientesController;
 use App\Http\Controllers\Auth\LoginController;
-
+use App\Http\Controllers\MiniExamenMentalController;
 
 /*
 |--------------------------------------------------------------------------
@@ -88,5 +88,10 @@ Route::post('/contacto/store',[ContactosController::class,'store'])->name('conta
     Route::get('/paciente/editar/{id}',[PacientesController::class,'edit'])->name('especialista.editar');
     Route::post('/paciente/actualizar',[PacientesController::class,'update'])->name('especialista.actualizar');
     Route::delete('/paciente/eliminar/{id}',[PacientesController::class,'destroy'])->name('especialista.eliminar');    
+
+
+    //Mini Examen Mental
+
+    Route::get('/miniExamen/listar',[MiniExamenMentalController::class,'index'])->name('miniExamen.listar');
 
 //});
