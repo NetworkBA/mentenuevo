@@ -1604,7 +1604,7 @@
 export default {
   data() {
     return {
-      mostrar: 10,
+      mostrar: 1,
       tope: 10,
       buttontext: "Siguiente",
     };
