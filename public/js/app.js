@@ -3074,16 +3074,598 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
-      mostrar: 6
+      mostrar: 10,
+      tope: 10,
+      buttontext: "Siguiente"
     };
   },
   methods: {
     Adelante: function Adelante() {
-      // `this` dentro de los métodos apunta a la instancia de Vue
-      this.mostrar += 1;
+      if (this.mostrar < this.tope) {
+        this.mostrar += 1;
+        this.buttontext = "Siguiente";
+      } else {
+        this.buttontext = "Enviar";
+      }
     }
   }
 });
@@ -40684,13 +41266,13 @@ var render = function() {
             [
               _c("div", { staticClass: "row" }, [
                 _vm._v(
-                  "\n          Es también frecuente que a la gente le pasen cosas por dentro, se\n          diga a sí misma cosas o sienta determinadas respuestas fisiológicas\n          de forma más o menos automática.\n        "
+                  "\n            Es también frecuente que a la gente le pasen cosas por dentro, se\n            diga a sí misma cosas o sienta determinadas respuestas fisiológicas\n            de forma más o menos automática.\n          "
                 )
               ]),
               _vm._v(" "),
               _c("div", { staticClass: "row" }, [
                 _vm._v(
-                  "\n          Voy a leer algunas frases; dígame si le ocurren y, en caso\n          afirmativo, con qué nivel de frecuencia (de nunca = 0 a muchísimo =\n          4) y en que situación2:\n        "
+                  "\n            Voy a leer algunas frases; dígame si le ocurren y, en caso\n            afirmativo, con qué nivel de frecuencia (de nunca = 0 a muchísimo =\n            4) y en que situación2:\n          "
                 )
               ]),
               _vm._v(" "),
@@ -40865,6 +41447,222 @@ var render = function() {
             ]
           ),
           _vm._v(" "),
+          _c(
+            "div",
+            {
+              directives: [
+                {
+                  name: "show",
+                  rawName: "v-show",
+                  value: _vm.mostrar == 7,
+                  expression: "mostrar == 7"
+                }
+              ]
+            },
+            [
+              _vm._m(96),
+              _vm._v(" "),
+              _vm._m(97),
+              _vm._v(" "),
+              _vm._m(98),
+              _vm._v(" "),
+              _vm._m(99),
+              _vm._v(" "),
+              _vm._m(100),
+              _vm._v(" "),
+              _vm._m(101),
+              _vm._v(" "),
+              _vm._m(102),
+              _vm._v(" "),
+              _vm._m(103),
+              _vm._v(" "),
+              _vm._m(104),
+              _vm._v(" "),
+              _vm._m(105),
+              _vm._v(" "),
+              _vm._m(106),
+              _vm._v(" "),
+              _vm._m(107),
+              _vm._v(" "),
+              _vm._m(108),
+              _vm._v(" "),
+              _vm._m(109),
+              _vm._v(" "),
+              _vm._m(110),
+              _vm._v(" "),
+              _vm._m(111),
+              _vm._v(" "),
+              _vm._m(112),
+              _vm._v(" "),
+              _vm._m(113),
+              _vm._v(" "),
+              _vm._m(114)
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              directives: [
+                {
+                  name: "show",
+                  rawName: "v-show",
+                  value: _vm.mostrar == 8,
+                  expression: "mostrar == 8"
+                }
+              ]
+            },
+            [
+              _vm._m(115),
+              _vm._v(" "),
+              _vm._m(116),
+              _vm._v(" "),
+              _vm._m(117),
+              _vm._v(" "),
+              _vm._m(118),
+              _vm._v(" "),
+              _vm._m(119),
+              _vm._v(" "),
+              _vm._m(120),
+              _vm._v(" "),
+              _vm._m(121),
+              _vm._v(" "),
+              _vm._m(122),
+              _vm._v(" "),
+              _vm._m(123),
+              _vm._v(" "),
+              _vm._m(124),
+              _vm._v(" "),
+              _vm._m(125),
+              _vm._v(" "),
+              _vm._m(126),
+              _vm._v(" "),
+              _vm._m(127),
+              _vm._v(" "),
+              _vm._m(128),
+              _vm._v(" "),
+              _vm._m(129),
+              _vm._v(" "),
+              _vm._m(130),
+              _vm._v(" "),
+              _vm._m(131)
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              directives: [
+                {
+                  name: "show",
+                  rawName: "v-show",
+                  value: _vm.mostrar == 9,
+                  expression: "mostrar == 9"
+                }
+              ]
+            },
+            [
+              _vm._m(132),
+              _vm._v(" "),
+              _vm._m(133),
+              _vm._v(" "),
+              _vm._m(134),
+              _vm._v(" "),
+              _vm._m(135),
+              _vm._v(" "),
+              _vm._m(136),
+              _vm._v(" "),
+              _vm._m(137),
+              _vm._v(" "),
+              _vm._m(138),
+              _vm._v(" "),
+              _vm._m(139),
+              _vm._v(" "),
+              _vm._m(140),
+              _vm._v(" "),
+              _vm._m(141),
+              _vm._v(" "),
+              _vm._m(142),
+              _vm._v(" "),
+              _vm._m(143),
+              _vm._v(" "),
+              _vm._m(144),
+              _vm._v(" "),
+              _vm._m(145),
+              _vm._v(" "),
+              _vm._m(146),
+              _vm._v(" "),
+              _vm._m(147),
+              _vm._v(" "),
+              _vm._m(148),
+              _vm._v(" "),
+              _vm._m(149),
+              _vm._v(" "),
+              _vm._m(150)
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              directives: [
+                {
+                  name: "show",
+                  rawName: "v-show",
+                  value: _vm.mostrar == 10,
+                  expression: "mostrar == 10"
+                }
+              ]
+            },
+            [
+              _vm._m(151),
+              _vm._v(" "),
+              _vm._m(152),
+              _vm._v(" "),
+              _vm._m(153),
+              _vm._v(" "),
+              _vm._m(154),
+              _vm._v(" "),
+              _vm._m(155),
+              _vm._v(" "),
+              _vm._m(156),
+              _vm._v(" "),
+              _vm._m(157),
+              _vm._v(" "),
+              _vm._m(158),
+              _vm._v(" "),
+              _vm._m(159),
+              _vm._v(" "),
+              _vm._m(160),
+              _vm._v(" "),
+              _vm._m(161),
+              _vm._v(" "),
+              _vm._m(162),
+              _vm._v(" "),
+              _vm._m(163),
+              _vm._v(" "),
+              _vm._m(164),
+              _vm._v(" "),
+              _vm._m(165),
+              _vm._v(" "),
+              _vm._m(166),
+              _vm._v(" "),
+              _vm._m(167),
+              _vm._v(" "),
+              _vm._m(168),
+              _vm._v(" "),
+              _vm._m(169),
+              _vm._v(" "),
+              _vm._m(170),
+              _vm._v(" "),
+              _c("br"),
+              _c("br"),
+              _c("br"),
+              _vm._v(" "),
+              _vm._m(171)
+            ]
+          ),
+          _vm._v(" "),
           _c("div", { staticClass: "row" }, [
             _c(
               "button",
@@ -40874,13 +41672,17 @@ var render = function() {
                 attrs: { type: "button" },
                 on: { click: _vm.Adelante }
               },
-              [_vm._v("\n          Enviar\n        ")]
+              [
+                _vm._v(
+                  "\n            " + _vm._s(this.buttontext) + "\n          "
+                )
+              ]
             )
           ]),
           _vm._v(" "),
-          _vm._m(96),
+          _vm._m(172),
           _vm._v(" "),
-          _vm._m(97)
+          _vm._m(173)
         ]
       )
     ])
@@ -40892,21 +41694,21 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-2" }, [
+      _c("div", { staticClass: "col-md-2" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v("Nombre del Entrevistador:")
         ])
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "form-group col-md-7" }, [
+      _c("div", { staticClass: "col-md-7" }, [
         _c("input", { staticClass: "form-control", attrs: { id: "name" } })
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "form-group col-md-1" }, [
+      _c("div", { staticClass: "col-md-1" }, [
         _c("label", { attrs: { for: "ap" } }, [_vm._v("Fecha")])
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "form-group col-md-2" }, [
+      _c("div", { staticClass: "col-md-2" }, [
         _c("input", { staticClass: "form-control", attrs: { id: "na" } })
       ])
     ])
@@ -40924,13 +41726,13 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-6" }, [
+      _c("div", { staticClass: "col-md-6" }, [
         _c("label", { attrs: { for: "name" } }, [_vm._v("Apellidos:")]),
         _vm._v(" "),
         _c("input", { staticClass: "form-control", attrs: { id: "name" } })
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "form-group col-md-6" }, [
+      _c("div", { staticClass: "col-md-6" }, [
         _c("label", { attrs: { for: "ap" } }, [_vm._v("Nombre:")]),
         _vm._v(" "),
         _c("input", { staticClass: "form-control", attrs: { id: "na" } })
@@ -40942,25 +41744,25 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-3" }, [
+      _c("div", { staticClass: "col-md-3" }, [
         _c("label", { attrs: { for: "name" } }, [_vm._v("Edad:")]),
         _vm._v(" "),
         _c("input", { staticClass: "form-control", attrs: { id: "name" } })
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "form-group col-md-3" }, [
+      _c("div", { staticClass: "col-md-3" }, [
         _c("label", { attrs: { for: "name" } }, [_vm._v("Estudios:")]),
         _vm._v(" "),
         _c("input", { staticClass: "form-control", attrs: { id: "name" } })
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "form-group col-md-3" }, [
+      _c("div", { staticClass: "col-md-3" }, [
         _c("label", { attrs: { for: "name" } }, [_vm._v("Profesión:")]),
         _vm._v(" "),
         _c("input", { staticClass: "form-control", attrs: { id: "name" } })
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "form-group col-md-3" }, [
+      _c("div", { staticClass: "col-md-3" }, [
         _c("label", { attrs: { for: "name" } }, [_vm._v("Situación laboral:")]),
         _vm._v(" "),
         _c("input", { staticClass: "form-control", attrs: { id: "name" } })
@@ -40972,7 +41774,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-6" }, [
+      _c("div", { staticClass: "col-md-6" }, [
         _c("label", { attrs: { for: "name" } }, [_vm._v("Estado Civil:")]),
         _vm._v(" "),
         _c("input", { staticClass: "form-control", attrs: { id: "name" } })
@@ -40984,7 +41786,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-6" }, [
+      _c("div", { staticClass: "col-md-6" }, [
         _c("label", { attrs: { for: "name" } }, [_vm._v("Con quién vive:")]),
         _vm._v(" "),
         _c("input", { staticClass: "form-control", attrs: { id: "name" } })
@@ -40996,7 +41798,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-6" }, [
+      _c("div", { staticClass: "col-md-6" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v("Dónde Trabaja/Estudia:")
         ]),
@@ -41010,7 +41812,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-6" }, [
+      _c("div", { staticClass: "col-md-6" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v("Fecha de Nacimiento:")
         ]),
@@ -41018,7 +41820,7 @@ var staticRenderFns = [
         _c("input", { staticClass: "form-control", attrs: { id: "name" } })
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "form-group col-md-6" }, [
+      _c("div", { staticClass: "col-md-6" }, [
         _c("label", { attrs: { for: "name" } }, [_vm._v("Lugar:")]),
         _vm._v(" "),
         _c("input", { staticClass: "form-control", attrs: { id: "name" } })
@@ -41030,7 +41832,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-6" }, [
+      _c("div", { staticClass: "col-md-6" }, [
         _c("label", { attrs: { for: "name" } }, [_vm._v("Dirección:")]),
         _vm._v(" "),
         _c("input", { staticClass: "form-control", attrs: { id: "name" } })
@@ -41042,13 +41844,13 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-6" }, [
+      _c("div", { staticClass: "col-md-6" }, [
         _c("label", { attrs: { for: "name" } }, [_vm._v("Tel:")]),
         _vm._v(" "),
         _c("input", { staticClass: "form-control", attrs: { id: "name" } })
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "form-group col-md-6" }, [
+      _c("div", { staticClass: "col-md-6" }, [
         _c("label", { attrs: { for: "name" } }, [_vm._v("E-mail:")]),
         _vm._v(" "),
         _c("input", { staticClass: "form-control", attrs: { id: "name" } })
@@ -41060,10 +41862,10 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v(
-            "¿Existe algún problema si recibe alguna llamada telefónica\n              nuestra?"
+            "¿Existe algún problema si recibe alguna llamada telefónica\n                nuestra?"
           )
         ]),
         _vm._v(" "),
@@ -41076,7 +41878,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v("Rasgos físicos distintivos")
         ]),
@@ -41092,7 +41894,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "row" }, [
       _c("strong", [
         _vm._v(
-          "Descripción de la demanda y el problema: Descripción e\n            Historia"
+          "Descripción de la demanda y el problema: Descripción e\n              Historia"
         )
       ])
     ])
@@ -41102,10 +41904,10 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v(
-            "Descríbame, lo más detalladamente posible, el motivo de su\n              consulta:\n            "
+            "Descríbame, lo más detalladamente posible, el motivo de su\n                consulta:\n              "
           )
         ]),
         _vm._v(" "),
@@ -41118,10 +41920,10 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v(
-            "Descríbame lo mejor posible qué le pasa (¿Qué hace, qué siente,\n              qué piensa sobre el problema que le ha traído aquí?)"
+            "Descríbame lo mejor posible qué le pasa (¿Qué hace, qué siente,\n                qué piensa sobre el problema que le ha traído aquí?)"
           )
         ]),
         _vm._v(" "),
@@ -41134,10 +41936,10 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v(
-            "¿Podría especificar la última vez que le ocurrió ese problema?\n              ¿Qué, cuándo, dónde y cómo le ocurrió?"
+            "¿Podría especificar la última vez que le ocurrió ese problema?\n                ¿Qué, cuándo, dónde y cómo le ocurrió?"
           )
         ]),
         _vm._v(" "),
@@ -41150,7 +41952,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v("En general, ¿con qué frecuencia le ocurre ese problema?")
         ]),
@@ -41164,7 +41966,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v("¿Cuál es su duración?")
         ]),
@@ -41178,7 +41980,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v("¿Con qué intensidad ocurre?")
         ]),
@@ -41192,10 +41994,10 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v(
-            "En una escala de 1 a 5 (en que 1 sería nada o muy poco y 5\n              muchísimo), ¿en qué medida considera que estas manifestaciones\n              le afectan en su vida cotidiana?"
+            "En una escala de 1 a 5 (en que 1 sería nada o muy poco y 5\n                muchísimo), ¿en qué medida considera que estas manifestaciones\n                le afectan en su vida cotidiana?"
           )
         ]),
         _vm._v(" "),
@@ -41208,10 +42010,10 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v(
-            "¿Ocurre, especialmente, en alguna/s situación/es?; por favor,\n              descríbala/s"
+            "¿Ocurre, especialmente, en alguna/s situación/es?; por favor,\n                descríbala/s"
           )
         ]),
         _vm._v(" "),
@@ -41224,7 +42026,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v("¿Cuándo empezaron esas manifestaciones?")
         ]),
@@ -41238,10 +42040,10 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v(
-            "¿Podría describirme qué, cuándo, cómo y dónde le ocurrieron la\n              primera vez que aparecieron?"
+            "¿Podría describirme qué, cuándo, cómo y dónde le ocurrieron la\n                primera vez que aparecieron?"
           )
         ]),
         _vm._v(" "),
@@ -41254,10 +42056,10 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v(
-            "¿En qué circunstancias? (aclare aspectos de la situación,\n              personas presentes, antecedentes y consecuentes)"
+            "¿En qué circunstancias? (aclare aspectos de la situación,\n                personas presentes, antecedentes y consecuentes)"
           )
         ]),
         _vm._v(" "),
@@ -41270,10 +42072,10 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v(
-            "Desde entonces, ¿cree que esas manifestaciones se han\n              agravado?"
+            "Desde entonces, ¿cree que esas manifestaciones se han\n                agravado?"
           )
         ]),
         _vm._v(" "),
@@ -41286,10 +42088,10 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v(
-            "¿Ha buscado ayuda anteriormente para resolver este\n              problema?"
+            "¿Ha buscado ayuda anteriormente para resolver este\n                problema?"
           )
         ]),
         _vm._v(" "),
@@ -41302,10 +42104,10 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v(
-            "Si es así, por favor, dígame qué profesionales, qué\n              tratamientos (en su caso), con qué resultados y en qué fechas\n              ocurrieron:\n            "
+            "Si es así, por favor, dígame qué profesionales, qué\n                tratamientos (en su caso), con qué resultados y en qué fechas\n                ocurrieron:\n              "
           )
         ]),
         _vm._v(" "),
@@ -41318,7 +42120,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v("Finalmente, ¿a qué cree que se debe su problema?")
         ]),
@@ -41340,10 +42142,10 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v(
-            "Aparte del problema que me cuenta, ¿presenta alguna otra\n              situación problemática o manifestación que le parezca anormal o\n              que le produzca sufrimiento?"
+            "Aparte del problema que me cuenta, ¿presenta alguna otra\n                situación problemática o manifestación que le parezca anormal o\n                que le produzca sufrimiento?"
           )
         ]),
         _vm._v(" "),
@@ -41356,10 +42158,10 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v(
-            "¿Ha tenido en otras ocasiones, a lo largo de su vida, otros\n              problemas psicológicos/mentales/conductuales distintos de estos\n              por los que consulta? Si es así, descríbamelos y dígame en qué\n              momento y situación de su vida aparecieron:\n            "
+            "¿Ha tenido en otras ocasiones, a lo largo de su vida, otros\n                problemas psicológicos/mentales/conductuales distintos de estos\n                por los que consulta? Si es así, descríbamelos y dígame en qué\n                momento y situación de su vida aparecieron:\n              "
           )
         ]),
         _vm._v(" "),
@@ -41372,10 +42174,10 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v(
-            "¿Ha sido usted ingresado/a alguna vez por un trastorno\n              psicológico?"
+            "¿Ha sido usted ingresado/a alguna vez por un trastorno\n                psicológico?"
           )
         ]),
         _vm._v(" "),
@@ -41388,10 +42190,10 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v(
-            "Vamos a tratar de precisar si pudieran existir algunos otros\n              problemas además de los que usted me ha descrito ya. Le voy a\n              leer distintas posibilidades y usted me va a decir si le ocurren\n              en el presente:\n            "
+            "Vamos a tratar de precisar si pudieran existir algunos otros\n                problemas además de los que usted me ha descrito ya. Le voy a\n                leer distintas posibilidades y usted me va a decir si le ocurren\n                en el presente:\n              "
           )
         ]),
         _vm._v(" "),
@@ -41404,13 +42206,13 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-4" }, [
+      _c("div", { staticClass: "col-md-4" }, [
         _c("label", { attrs: { for: "name" } }, [_vm._v("DROGAS")]),
         _vm._v(" "),
         _c("input", { staticClass: "form-control", attrs: { id: "name" } })
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "form-group col-md-4" }, [
+      _c("div", { staticClass: "col-md-4" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v("PENSAR QUITARSE LA VIDA")
         ]),
@@ -41418,7 +42220,7 @@ var staticRenderFns = [
         _c("input", { staticClass: "form-control", attrs: { id: "name" } })
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "form-group col-md-4" }, [
+      _c("div", { staticClass: "col-md-4" }, [
         _c("label", { attrs: { for: "name" } }, [_vm._v("INSOMNIO ")]),
         _vm._v(" "),
         _c("input", { staticClass: "form-control", attrs: { id: "name" } })
@@ -41614,7 +42416,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("strong", [_vm._v("Condiciones familiares actuales")])
       ])
     ])
@@ -41624,7 +42426,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v("Me ha dicho usted que vive con:")
         ]),
@@ -41638,7 +42440,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v("Quisiera saber más de su situación familiar actual")
         ]),
@@ -41652,10 +42454,10 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v(
-            "¿Está casado/a (o vive con una pareja estable)?; dígame la edad\n              y ocupación de su pareja:"
+            "¿Está casado/a (o vive con una pareja estable)?; dígame la edad\n                y ocupación de su pareja:"
           )
         ]),
         _vm._v(" "),
@@ -41668,7 +42470,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v("¿Cómo se lleva con su pareja?")
         ]),
@@ -41682,7 +42484,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v("Si tiene hijos, dígame sus nombres y edades:")
         ]),
@@ -41696,7 +42498,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v("¿Qué tal se lleva con sus hijos?")
         ]),
@@ -41710,10 +42512,10 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v(
-            "Si está divorciado/a o separado/a, ¿cuál fue la razón para la\n              ruptura?"
+            "Si está divorciado/a o separado/a, ¿cuál fue la razón para la\n                ruptura?"
           )
         ]),
         _vm._v(" "),
@@ -41726,10 +42528,10 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v(
-            "¿Qué otras personas viven con usted y cómo se lleva con\n              ellas?:"
+            "¿Qué otras personas viven con usted y cómo se lleva con\n                ellas?:"
           )
         ]),
         _vm._v(" "),
@@ -41742,10 +42544,10 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v(
-            "¿Tiene alguna otra relación importante (aparte de los\n              amigos/as) que no viva con usted?"
+            "¿Tiene alguna otra relación importante (aparte de los\n                amigos/as) que no viva con usted?"
           )
         ]),
         _vm._v(" "),
@@ -41758,7 +42560,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("strong", [
           _vm._v("En el caso de vivir con la familia de referencia")
         ])
@@ -41770,10 +42572,10 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v(
-            "Si vive con su/s padre/s, dígame qué años tiene/n y a qué se\n              dedica/n:"
+            "Si vive con su/s padre/s, dígame qué años tiene/n y a qué se\n                dedica/n:"
           )
         ]),
         _vm._v(" "),
@@ -41786,7 +42588,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v("¿Cómo se lleva con sus padres?")
         ]),
@@ -41800,10 +42602,10 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v(
-            "Si tienes hermano/as, dígame qué edad tienen, a qué se dedican\n              y si viven con usted:"
+            "Si tienes hermano/as, dígame qué edad tienen, a qué se dedican\n                y si viven con usted:"
           )
         ]),
         _vm._v(" "),
@@ -41816,7 +42618,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v("¿Cómo se lleva con sus hermano/as?")
         ]),
@@ -41830,10 +42632,10 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v(
-            "¿Qué otras personas viven con usted y cómo se lleva con\n              ellas?"
+            "¿Qué otras personas viven con usted y cómo se lleva con\n                ellas?"
           )
         ]),
         _vm._v(" "),
@@ -41846,10 +42648,10 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v(
-            "¿Tiene alguna otra relación importante (aparte de los\n              amigos/as) que no viva con usted?"
+            "¿Tiene alguna otra relación importante (aparte de los\n                amigos/as) que no viva con usted?"
           )
         ]),
         _vm._v(" "),
@@ -41862,10 +42664,10 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("strong", [
           _vm._v(
-            "Repercusión del problema por el que consulta en la\n              familia"
+            "Repercusión del problema por el que consulta en la\n                familia"
           )
         ])
       ])
@@ -41876,10 +42678,10 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v(
-            "¿El problema por el que consulta qué repercusiones tiene en sus\n              relaciones familiares actuales?"
+            "¿El problema por el que consulta qué repercusiones tiene en sus\n                relaciones familiares actuales?"
           )
         ]),
         _vm._v(" "),
@@ -41892,7 +42694,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v("¿Qué hacen los miembros de su familia cuando aparece?")
         ]),
@@ -41906,7 +42708,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v("¿Qué piensan del problema?")
         ]),
@@ -41920,7 +42722,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v("¿Por qué piensan y dicen que le ocurre el problema?")
         ]),
@@ -41934,7 +42736,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("strong", [_vm._v("Historia familiar")])
       ])
     ])
@@ -41944,9 +42746,9 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _vm._v(
-          "\n            Me gustaría saber más de su historia familiar:\n          "
+          "\n              Me gustaría saber más de su historia familiar:\n            "
         )
       ])
     ])
@@ -41956,9 +42758,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
-        _c("strong", [_vm._v("Madre")])
-      ])
+      _c("div", { staticClass: "col-md-12" }, [_c("strong", [_vm._v("Madre")])])
     ])
   },
   function() {
@@ -41966,13 +42766,13 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-6" }, [
+      _c("div", { staticClass: "col-md-6" }, [
         _c("label", { attrs: { for: "name" } }, [_vm._v("¿Vive su madre? ")]),
         _vm._v(" "),
         _c("input", { staticClass: "form-control", attrs: { id: "name" } })
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "form-group col-md-6" }, [
+      _c("div", { staticClass: "col-md-6" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v("(En su caso) ¿De qué murió? ")
         ]),
@@ -41986,13 +42786,13 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-6" }, [
+      _c("div", { staticClass: "col-md-6" }, [
         _c("label", { attrs: { for: "name" } }, [_vm._v("¿A qué edad?")]),
         _vm._v(" "),
         _c("input", { staticClass: "form-control", attrs: { id: "name" } })
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "form-group col-md-6" }, [
+      _c("div", { staticClass: "col-md-6" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v("(En su caso) ¿Qué edad tenía usted? ")
         ]),
@@ -42006,13 +42806,13 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-6" }, [
+      _c("div", { staticClass: "col-md-6" }, [
         _c("label", { attrs: { for: "name" } }, [_vm._v("Edad actual: ")]),
         _vm._v(" "),
         _c("input", { staticClass: "form-control", attrs: { id: "name" } })
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "form-group col-md-6" }, [
+      _c("div", { staticClass: "col-md-6" }, [
         _c("label", { attrs: { for: "name" } }, [_vm._v("Ocupación:")]),
         _vm._v(" "),
         _c("input", { staticClass: "form-control", attrs: { id: "name" } })
@@ -42024,9 +42824,9 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _vm._v(
-          "\n            ¿Cómo podría describir las relaciones con su madre a lo largo de\n            la vida? Valore tales relaciones (de 1 = malas a 4 = muy buenas):\n          "
+          "\n              ¿Cómo podría describir las relaciones con su madre a lo largo de\n              la vida? Valore tales relaciones (de 1 = malas a 4 = muy buenas):\n            "
         )
       ])
     ])
@@ -42076,7 +42876,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v("¿Cómo describiría a su madre?")
         ]),
@@ -42090,7 +42890,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v("¿Qué actitudes tenía su madre hacia usted?")
         ]),
@@ -42104,10 +42904,10 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v(
-            "¿Podría decirme qué hacía su madre para conseguir algo de usted\n              (premios y castigos)?"
+            "¿Podría decirme qué hacía su madre para conseguir algo de usted\n                (premios y castigos)?"
           )
         ]),
         _vm._v(" "),
@@ -42120,10 +42920,10 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v(
-            "¿Qué actividades hacía usted con su madre cuando era\n              niño/a?"
+            "¿Qué actividades hacía usted con su madre cuando era\n                niño/a?"
           )
         ]),
         _vm._v(" "),
@@ -42136,9 +42936,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
-        _c("strong", [_vm._v("Padre")])
-      ])
+      _c("div", { staticClass: "col-md-12" }, [_c("strong", [_vm._v("Padre")])])
     ])
   },
   function() {
@@ -42146,13 +42944,13 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-6" }, [
+      _c("div", { staticClass: "col-md-6" }, [
         _c("label", { attrs: { for: "name" } }, [_vm._v("¿Vive su padre? ")]),
         _vm._v(" "),
         _c("input", { staticClass: "form-control", attrs: { id: "name" } })
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "form-group col-md-6" }, [
+      _c("div", { staticClass: "col-md-6" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v("(En su caso) ¿De qué murió? ")
         ]),
@@ -42166,13 +42964,13 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-6" }, [
+      _c("div", { staticClass: "col-md-6" }, [
         _c("label", { attrs: { for: "name" } }, [_vm._v("¿A qué edad?")]),
         _vm._v(" "),
         _c("input", { staticClass: "form-control", attrs: { id: "name" } })
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "form-group col-md-6" }, [
+      _c("div", { staticClass: "col-md-6" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v("(En su caso) ¿Qué edad tenía usted? ")
         ]),
@@ -42186,13 +42984,13 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-6" }, [
+      _c("div", { staticClass: "col-md-6" }, [
         _c("label", { attrs: { for: "name" } }, [_vm._v("Edad actual: ")]),
         _vm._v(" "),
         _c("input", { staticClass: "form-control", attrs: { id: "name" } })
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "form-group col-md-6" }, [
+      _c("div", { staticClass: "col-md-6" }, [
         _c("label", { attrs: { for: "name" } }, [_vm._v("Ocupación:")]),
         _vm._v(" "),
         _c("input", { staticClass: "form-control", attrs: { id: "name" } })
@@ -42204,9 +43002,9 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _vm._v(
-          "\n            ¿Cómo podría describir las relaciones con su madre a lo largo de\n            la vida? Valore tales relaciones (de 1 = malas a 4 = muy buenas):\n          "
+          "\n              ¿Cómo podría describir las relaciones con su madre a lo largo de\n              la vida? Valore tales relaciones (de 1 = malas a 4 = muy buenas):\n            "
         )
       ])
     ])
@@ -42256,7 +43054,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v("¿Cómo describiría a su padre?")
         ]),
@@ -42270,7 +43068,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v("¿Qué actitudes tenía su padre hacia usted?")
         ]),
@@ -42284,10 +43082,10 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v(
-            "¿Podría decirme qué hacía su padre para conseguir algo de usted\n              (premios y castigos)?"
+            "¿Podría decirme qué hacía su padre para conseguir algo de usted\n                (premios y castigos)?"
           )
         ]),
         _vm._v(" "),
@@ -42300,10 +43098,10 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v(
-            "¿Qué actividades hacía usted con su padre cuando era niño/a?\n            "
+            "¿Qué actividades hacía usted con su padre cuando era niño/a?\n              "
           )
         ]),
         _vm._v(" "),
@@ -42316,7 +43114,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v("¿Cómo se llevaban su madre y su padre?")
         ]),
@@ -42330,10 +43128,10 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("strong", [
           _vm._v(
-            "Repercusión del problema por el que consulta en la familia\n            "
+            "Repercusión del problema por el que consulta en la familia\n              "
           )
         ])
       ])
@@ -42344,9 +43142,9 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _vm._v(
-          "\n            Quisiera saber cómo se ha llevado con su/s hermano/a/s a lo largo\n            de su infancia y adolescencia\n          "
+          "\n              Quisiera saber cómo se ha llevado con su/s hermano/a/s a lo largo\n              de su infancia y adolescencia\n            "
         )
       ])
     ])
@@ -42400,10 +43198,10 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v(
-            "¿Tenían preferencia su padre o madre por usted o por alguno de\n              sus hermanos/as? (Sí)(No)"
+            "¿Tenían preferencia su padre o madre por usted o por alguno de\n                sus hermanos/as? (Sí)(No)"
           )
         ]),
         _vm._v(" "),
@@ -42416,7 +43214,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v("Si así es, ¿por quién y por qué?")
         ]),
@@ -42430,10 +43228,10 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v(
-            "¿Cuáles fueron los valores más importantes en su familia? (la\n              religión, el trabajo, la igualdad, la solidaridad, etc.):"
+            "¿Cuáles fueron los valores más importantes en su familia? (la\n                religión, el trabajo, la igualdad, la solidaridad, etc.):"
           )
         ]),
         _vm._v(" "),
@@ -42446,10 +43244,10 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v(
-            "¿Tuvo algunos problemas durante su infancia y/o\n              adolescencia?"
+            "¿Tuvo algunos problemas durante su infancia y/o\n                adolescencia?"
           )
         ]),
         _vm._v(" "),
@@ -42480,15 +43278,17 @@ var staticRenderFns = [
         _c("tbody", [
           _c("tr", [
             _c("td", [
-              _vm._v("\n                  -Rendimiento escolar "),
+              _vm._v("\n                    -Rendimiento escolar "),
               _c("br"),
-              _vm._v("\n                  -Problemas de conducta "),
+              _vm._v("\n                    -Problemas de conducta "),
               _c("br"),
-              _vm._v("\n                  -Ansiedad depresión "),
+              _vm._v("\n                    -Ansiedad depresión "),
               _c("br"),
-              _vm._v("\n                  -Drogas/alcohol "),
+              _vm._v("\n                    -Drogas/alcohol "),
               _c("br"),
-              _vm._v("\n                  -Problemas médicos\n                ")
+              _vm._v(
+                "\n                    -Problemas médicos\n                  "
+              )
             ]),
             _vm._v(" "),
             _c("td", [_c("input", { staticClass: "form-control" })]),
@@ -42520,7 +43320,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("strong", [_vm._v("Historia laboral")])
       ])
     ])
@@ -42530,9 +43330,9 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _vm._v(
-          "\n            (Si procede y dependiendo de la edad del sujeto.) Descríbame los\n            trabajos que usted ha ido teniendo y las fechas en los que\n            ocurrieron. Por favor, indíqueme qué aspectos de cada trabajo eran\n            los más satisfactorios para usted (tipo de trabajo) y qué aspectos\n            le producían más agrado o desagrado y cómo se llevaba con sus\n            compañeros/as de trabajo y con sus jefes/as:\n          "
+          "\n              (Si procede y dependiendo de la edad del sujeto.) Descríbame los\n              trabajos que usted ha ido teniendo y las fechas en los que\n              ocurrieron. Por favor, indíqueme qué aspectos de cada trabajo eran\n              los más satisfactorios para usted (tipo de trabajo) y qué aspectos\n              le producían más agrado o desagrado y cómo se llevaba con sus\n              compañeros/as de trabajo y con sus jefes/as:\n            "
         )
       ])
     ])
@@ -42602,7 +43402,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v("¿Actualmente qué trabajo (en su caso) lleva a cabo?")
         ]),
@@ -42616,7 +43416,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v("¿Cuántas horas trabaja a la semana (en promedio)?")
         ]),
@@ -42630,10 +43430,11 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _vm._v("\n              +-\n              "),
         _c("label", { attrs: { for: "name" } }, [
           _vm._v(
-            "¿Qué cursos o seminarios ha realizado para incrementar sus\n              habilidades ocupacionales?"
+            "¿Qué cursos o seminarios ha realizado para incrementar sus\n                habilidades ocupacionales?"
           )
         ]),
         _vm._v(" "),
@@ -42646,7 +43447,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }, [
           _vm._v("¿Qué expectativas tiene relativas al trabajo?")
         ]),
@@ -42660,8 +43461,8 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
-        _c("strong", [_vm._v("Padre")])
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("strong", [_vm._v("Historia de intereses y entretenimientos")])
       ])
     ])
   },
@@ -42670,7 +43471,1108 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "form-group col-md-12" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _vm._v(
+          "\n              Me gustaría saber algo más de sus intereses y entretenimientos a\n              lo largo de su vida.\n            "
+        )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿Cómo describiría sus intereses y entretenimientos durante su\n                niñez?"
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿En la adolescencia y juventud?")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "En la actualidad, ¿qué hace usted en sus ratos libres en el\n                presente?"
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿Cuántas horas dedica al día a esos entretenimientos?")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿Qué hace los fines de semana?")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("Cuénteme, ¿qué hace en vacaciones?")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿En qué momentos o situaciones se aburre?")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("strong", [_vm._v("Relaciones interpersonales")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _vm._v(
+          "\n              Hemos hablado de su familia, de sus compañeros/as de colegio y de\n              trabajo; me gustaría saber más acerca de sus relaciones sociales.\n              "
+        ),
+        _c("br")
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿Hace amigos/as fácilmente? ")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿Tiene muchos/as amigos/as? • ¿Cuántos\n                (aproximadamente)?"
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿Cuántos amigos/as íntimos/as?")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("En general, ¿se siente cómodo en situaciones sociales?")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿Expresa sus sentimientos, opiniones y deseos\n                fácilmente?"
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("Cuénteme, ¿qué hace en vacaciones?")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿A cuántas personas le cuenta sus secretos más íntimos?")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "Sus amigos/as y/o conocidos/as, ¿le cuentan a usted sus\n                secretos o le piden ayuda?"
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("strong", [_vm._v("Vida sexual")]),
+        _c("br"),
+        _vm._v(
+          "\n              Me gustaría que habláramos de sus relaciones sexuales.\n            "
+        )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("strong", [_vm._v("En el pasado ")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿Cuándo y cómo aprendió?, por primera vez, algo referente al\n                sexo\n              "
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿Era el sexo un tema del que se hablara en su casa?\n              "
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿Cuál era la actitud de sus padres hacia el sexo?\n              "
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿Cómo fue y cuándo cree que tuvo conciencia del sexo?\n              "
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿Cuándo, cómo y (en su caso) con quién tuvo su primera\n                experiencia sexual?\n              "
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿Se masturbaba/masturba? ")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿Cuándo fue la primera vez? ")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿Ha tenido alguna experiencia homosexual?\n              ")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("strong", [_vm._v("Para mujeres ")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿Cuándo tuvo su primera menstruación? ")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿Sus períodos son regulares ahora (en su caso)?\n              "
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿Tienen molestias? ")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿Se siente frecuentemente depresiva justo antes de tener el\n                período?\n              "
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿Usa usted algún tipo de anticonceptivo? ¿De qué tipo?\n              "
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "(En su caso.) ¿Cuándo ha dejado de tener la menstruación?\n              "
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("strong", [_vm._v("Para hombres ")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿Cuándo tuvo su primera polución? ")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("strong", [_vm._v("En la actualidad ")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("(Sólo si procede.) ¿Tiene pareja estable?\n              ")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿Cómo se lleva usted con su pareja? ")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿Quién cree que es el miembro dominante en su pareja o\n                relación?\n              "
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "Describa alguna de las conductas de su pareja que usted\n                encuentra particularmente agradables:\n              "
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "Describa alguna de las conductas de su pareja que usted\n                encuentra desagradables:\n              "
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿Qué actitud tiene usted, en la actualidad, respecto a las\n                relaciones sexuales?\n              "
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿Con qué periodicidad tiene relaciones sexuales?\n              "
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿Son satisfactorias sus relaciones sexuales?\n              ")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("strong", [_vm._v("Historia de su salud")]),
+        _vm._v(" "),
+        _c("br"),
+        _vm._v(
+          "\n              ¿Qué enfermedades ha tenido usted a lo largo de su vida?\n            "
+        )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-2" }, [
+        _c("label", { attrs: { for: "name" } }, [_vm._v("— En la infancia:")])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-10" }, [
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-2" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("— En la adolescencia:")
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-10" }, [
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-2" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("— Durante la juventud:")
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-10" }, [
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-2" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("— Durante la edad adulta:")
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-10" }, [
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "Si ha tenido intervenciones quirúrgicas, ¿cuáles y cuándo han\n                ocurrido?\n              "
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿Considera importante alguna de las enfermedades descritas?\n                ¿Cuál/es y cómo le afectaron?\n              "
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "En su caso, descríbame sus dolencias físicas presentes (tensión\n                alta, diabetes, problemas de corazón, etc)\n              "
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿Tiene problemas para dormir? ")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿Cuida usted su dieta? ")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿Realiza una actividad física regular (ir al gimnasio, deporte,\n                etc.)?\n              "
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿Consume alguna droga (bebidas, tabaco, otras drogas)?\n              "
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿Qué medicamentos toma y con qué frecuencia?\n              ")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿Cuándo fue la última vez que usted se hizo un examen físico\n                completo?\n              "
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿Cuáles fueron los resultados? ")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("strong", [_vm._v("Valores, creencias y sí mismo/a")]),
+        _vm._v(" "),
+        _c("br"),
+        _vm._v(
+          "\n              (Si procede y dependiendo de la edad del sujeto.) Anteriormente le\n              pregunté por los valores de su familia; ahora me gustaría saber\n              más sobre ello:\n            "
+        )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿Cúales cree usted que son sus más importantes valores?\n              "
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿Qué valores actuales, en nuestra sociedad, cree que son más\n                importantes?\n              "
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿Qué valores cree que se están perdiendo que a usted le\n                gustaría conservar?\n              "
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿Qué valores actuales cree que son más rechazables?\n              "
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿Se considera usted una persona religiosa?\n              ")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _vm._v(
+          "\n              Estamos llegando al final de esta entrevista, al menos por el\n              momento, pero aún me gustaría saber cómo se conceptualiza usted a\n              sí mismo/a.\n            "
+        )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿Cómo se describiría a sí mismo/a?\n")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿Cuáles son sus características más positivas?\n")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿Cuáles son sus características más negativas?\n")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿Qué le gustaría a usted cambiar de sí mismo/a?\n")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿Cómo le gustaría ser?\n")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿Qué espera usted de esta relación profesional?\n")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("div", { staticClass: "row justify-content-center" }, [
+          _vm._v("__________________________________________")
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "row justify-content-center" }, [
+          _vm._v("FIRMA")
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [_c("strong")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-12" }, [
         _c("label", { attrs: { for: "name" } }),
         _vm._v(" "),
         _c("input", { staticClass: "form-control", attrs: { id: "name" } })
