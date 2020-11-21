@@ -45,6 +45,10 @@ Route::get('/MiniExamen', function () {
     return view('miniexamen');
 });
 
+Route::get('/EntrevistaInicial', function () {
+    return view('entrevistainicial');
+});
+
 
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {

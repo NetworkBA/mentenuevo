@@ -2039,6 +2039,1057 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Entrevistainicial.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Entrevistainicial.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      mostrar: 6
+    };
+  },
+  methods: {
+    Adelante: function Adelante() {
+      // `this` dentro de los métodos apunta a la instancia de Vue
+      this.mostrar += 1;
+    }
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js&":
 /*!***************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js& ***!
@@ -2298,6 +3349,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
 //
 //
 //
@@ -3414,6 +4466,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
 //
 //
 //
@@ -39490,6 +40543,2147 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Entrevistainicial.vue?vue&type=template&id=c69b096a&":
+/*!********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Entrevistainicial.vue?vue&type=template&id=c69b096a& ***!
+  \********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", [
+    _c("div", { staticClass: "row justify-content-center" }, [
+      _vm._v("Entrevista Inicial Conductual")
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "row" }, [
+      _c(
+        "div",
+        {
+          staticClass: "container",
+          staticStyle: { "background-color": "#f7f7f8" }
+        },
+        [
+          _c(
+            "div",
+            {
+              directives: [
+                {
+                  name: "show",
+                  rawName: "v-show",
+                  value: _vm.mostrar == 1,
+                  expression: "mostrar == 1"
+                }
+              ]
+            },
+            [
+              _vm._m(0),
+              _vm._v(" "),
+              _vm._m(1),
+              _vm._v(" "),
+              _vm._m(2),
+              _vm._v(" "),
+              _vm._m(3),
+              _vm._v(" "),
+              _vm._m(4),
+              _vm._v(" "),
+              _vm._m(5),
+              _vm._v(" "),
+              _vm._m(6),
+              _vm._v(" "),
+              _vm._m(7),
+              _vm._v(" "),
+              _vm._m(8),
+              _vm._v(" "),
+              _vm._m(9),
+              _vm._v(" "),
+              _vm._m(10),
+              _vm._v(" "),
+              _vm._m(11),
+              _vm._v(" "),
+              _vm._m(12),
+              _vm._v(" "),
+              _vm._m(13),
+              _vm._v(" "),
+              _vm._m(14),
+              _vm._v(" "),
+              _vm._m(15),
+              _vm._v(" "),
+              _vm._m(16),
+              _vm._v(" "),
+              _vm._m(17),
+              _vm._v(" "),
+              _vm._m(18),
+              _vm._v(" "),
+              _vm._m(19),
+              _vm._v(" "),
+              _vm._m(20),
+              _vm._v(" "),
+              _vm._m(21)
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              directives: [
+                {
+                  name: "show",
+                  rawName: "v-show",
+                  value: _vm.mostrar == 2,
+                  expression: "mostrar == 2"
+                }
+              ]
+            },
+            [
+              _vm._m(22),
+              _vm._v(" "),
+              _vm._m(23),
+              _vm._v(" "),
+              _vm._m(24),
+              _vm._v(" "),
+              _vm._m(25),
+              _vm._v(" "),
+              _vm._m(26),
+              _vm._v(" "),
+              _vm._m(27),
+              _vm._v(" "),
+              _vm._m(28),
+              _vm._v(" "),
+              _vm._m(29),
+              _vm._v(" "),
+              _vm._m(30),
+              _vm._v(" "),
+              _vm._m(31),
+              _vm._v(" "),
+              _vm._m(32),
+              _vm._v(" "),
+              _vm._m(33)
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              directives: [
+                {
+                  name: "show",
+                  rawName: "v-show",
+                  value: _vm.mostrar == 3,
+                  expression: "mostrar == 3"
+                }
+              ]
+            },
+            [
+              _c("div", { staticClass: "row" }, [
+                _vm._v(
+                  "\n          Es también frecuente que a la gente le pasen cosas por dentro, se\n          diga a sí misma cosas o sienta determinadas respuestas fisiológicas\n          de forma más o menos automática.\n        "
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "row" }, [
+                _vm._v(
+                  "\n          Voy a leer algunas frases; dígame si le ocurren y, en caso\n          afirmativo, con qué nivel de frecuencia (de nunca = 0 a muchísimo =\n          4) y en que situación2:\n        "
+                )
+              ]),
+              _vm._v(" "),
+              _vm._m(34),
+              _vm._v(" "),
+              _vm._m(35)
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              directives: [
+                {
+                  name: "show",
+                  rawName: "v-show",
+                  value: _vm.mostrar == 4,
+                  expression: "mostrar == 4"
+                }
+              ]
+            },
+            [
+              _vm._m(36),
+              _vm._v(" "),
+              _vm._m(37),
+              _vm._v(" "),
+              _vm._m(38),
+              _vm._v(" "),
+              _vm._m(39),
+              _vm._v(" "),
+              _vm._m(40),
+              _vm._v(" "),
+              _vm._m(41),
+              _vm._v(" "),
+              _vm._m(42),
+              _vm._v(" "),
+              _vm._m(43),
+              _vm._v(" "),
+              _vm._m(44),
+              _vm._v(" "),
+              _vm._m(45),
+              _vm._v(" "),
+              _vm._m(46),
+              _vm._v(" "),
+              _vm._m(47),
+              _vm._v(" "),
+              _vm._m(48),
+              _vm._v(" "),
+              _vm._m(49),
+              _vm._v(" "),
+              _vm._m(50),
+              _vm._v(" "),
+              _vm._m(51),
+              _vm._v(" "),
+              _vm._m(52)
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              directives: [
+                {
+                  name: "show",
+                  rawName: "v-show",
+                  value: _vm.mostrar == 5,
+                  expression: "mostrar == 5"
+                }
+              ]
+            },
+            [
+              _vm._m(53),
+              _vm._v(" "),
+              _vm._m(54),
+              _vm._v(" "),
+              _vm._m(55),
+              _vm._v(" "),
+              _vm._m(56),
+              _vm._v(" "),
+              _vm._m(57),
+              _vm._v(" "),
+              _vm._m(58),
+              _vm._v(" "),
+              _vm._m(59),
+              _vm._v(" "),
+              _vm._m(60),
+              _vm._v(" "),
+              _vm._m(61),
+              _vm._v(" "),
+              _vm._m(62),
+              _vm._v(" "),
+              _vm._m(63),
+              _vm._v(" "),
+              _vm._m(64),
+              _vm._v(" "),
+              _vm._m(65),
+              _vm._v(" "),
+              _vm._m(66),
+              _vm._v(" "),
+              _vm._m(67),
+              _vm._v(" "),
+              _vm._m(68),
+              _vm._v(" "),
+              _vm._m(69),
+              _vm._v(" "),
+              _vm._m(70),
+              _vm._v(" "),
+              _vm._m(71),
+              _vm._v(" "),
+              _vm._m(72),
+              _vm._v(" "),
+              _vm._m(73),
+              _vm._v(" "),
+              _vm._m(74),
+              _vm._v(" "),
+              _vm._m(75),
+              _vm._v(" "),
+              _vm._m(76),
+              _vm._v(" "),
+              _vm._m(77),
+              _vm._v(" "),
+              _vm._m(78),
+              _vm._v(" "),
+              _vm._m(79),
+              _vm._v(" "),
+              _vm._m(80)
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              directives: [
+                {
+                  name: "show",
+                  rawName: "v-show",
+                  value: _vm.mostrar == 6,
+                  expression: "mostrar == 6"
+                }
+              ]
+            },
+            [
+              _vm._m(81),
+              _vm._v(" "),
+              _vm._m(82),
+              _vm._v(" "),
+              _vm._m(83),
+              _vm._v(" "),
+              _vm._m(84),
+              _vm._v(" "),
+              _vm._m(85),
+              _vm._v(" "),
+              _vm._m(86),
+              _vm._v(" "),
+              _vm._m(87),
+              _vm._v(" "),
+              _vm._m(88),
+              _vm._v(" "),
+              _vm._m(89),
+              _vm._v(" "),
+              _vm._m(90),
+              _vm._v(" "),
+              _vm._m(91),
+              _vm._v(" "),
+              _vm._m(92),
+              _vm._v(" "),
+              _vm._m(93),
+              _vm._v(" "),
+              _vm._m(94),
+              _vm._v(" "),
+              _vm._m(95)
+            ]
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "row" }, [
+            _c(
+              "button",
+              {
+                staticClass: "btn btn-primary mx-auto btn-lg",
+                staticStyle: { "background-color": "#76cee6" },
+                attrs: { type: "button" },
+                on: { click: _vm.Adelante }
+              },
+              [_vm._v("\n          Enviar\n        ")]
+            )
+          ]),
+          _vm._v(" "),
+          _vm._m(96),
+          _vm._v(" "),
+          _vm._m(97)
+        ]
+      )
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-2" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("Nombre del Entrevistador:")
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "form-group col-md-7" }, [
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "form-group col-md-1" }, [
+        _c("label", { attrs: { for: "ap" } }, [_vm._v("Fecha")])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "form-group col-md-2" }, [
+        _c("input", { staticClass: "form-control", attrs: { id: "na" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("strong", [_vm._v("Datos Personales")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-6" }, [
+        _c("label", { attrs: { for: "name" } }, [_vm._v("Apellidos:")]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "form-group col-md-6" }, [
+        _c("label", { attrs: { for: "ap" } }, [_vm._v("Nombre:")]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "na" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-3" }, [
+        _c("label", { attrs: { for: "name" } }, [_vm._v("Edad:")]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "form-group col-md-3" }, [
+        _c("label", { attrs: { for: "name" } }, [_vm._v("Estudios:")]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "form-group col-md-3" }, [
+        _c("label", { attrs: { for: "name" } }, [_vm._v("Profesión:")]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "form-group col-md-3" }, [
+        _c("label", { attrs: { for: "name" } }, [_vm._v("Situación laboral:")]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-6" }, [
+        _c("label", { attrs: { for: "name" } }, [_vm._v("Estado Civil:")]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-6" }, [
+        _c("label", { attrs: { for: "name" } }, [_vm._v("Con quién vive:")]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-6" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("Dónde Trabaja/Estudia:")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-6" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("Fecha de Nacimiento:")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "form-group col-md-6" }, [
+        _c("label", { attrs: { for: "name" } }, [_vm._v("Lugar:")]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-6" }, [
+        _c("label", { attrs: { for: "name" } }, [_vm._v("Dirección:")]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-6" }, [
+        _c("label", { attrs: { for: "name" } }, [_vm._v("Tel:")]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "form-group col-md-6" }, [
+        _c("label", { attrs: { for: "name" } }, [_vm._v("E-mail:")]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿Existe algún problema si recibe alguna llamada telefónica\n              nuestra?"
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("Rasgos físicos distintivos")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("strong", [
+        _vm._v(
+          "Descripción de la demanda y el problema: Descripción e\n            Historia"
+        )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "Descríbame, lo más detalladamente posible, el motivo de su\n              consulta:\n            "
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "Descríbame lo mejor posible qué le pasa (¿Qué hace, qué siente,\n              qué piensa sobre el problema que le ha traído aquí?)"
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿Podría especificar la última vez que le ocurrió ese problema?\n              ¿Qué, cuándo, dónde y cómo le ocurrió?"
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("En general, ¿con qué frecuencia le ocurre ese problema?")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿Cuál es su duración?")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿Con qué intensidad ocurre?")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "En una escala de 1 a 5 (en que 1 sería nada o muy poco y 5\n              muchísimo), ¿en qué medida considera que estas manifestaciones\n              le afectan en su vida cotidiana?"
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿Ocurre, especialmente, en alguna/s situación/es?; por favor,\n              descríbala/s"
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿Cuándo empezaron esas manifestaciones?")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿Podría describirme qué, cuándo, cómo y dónde le ocurrieron la\n              primera vez que aparecieron?"
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿En qué circunstancias? (aclare aspectos de la situación,\n              personas presentes, antecedentes y consecuentes)"
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "Desde entonces, ¿cree que esas manifestaciones se han\n              agravado?"
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿Ha buscado ayuda anteriormente para resolver este\n              problema?"
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "Si es así, por favor, dígame qué profesionales, qué\n              tratamientos (en su caso), con qué resultados y en qué fechas\n              ocurrieron:\n            "
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("Finalmente, ¿a qué cree que se debe su problema?")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("strong", [_vm._v("Otros potenciales problemas")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "Aparte del problema que me cuenta, ¿presenta alguna otra\n              situación problemática o manifestación que le parezca anormal o\n              que le produzca sufrimiento?"
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿Ha tenido en otras ocasiones, a lo largo de su vida, otros\n              problemas psicológicos/mentales/conductuales distintos de estos\n              por los que consulta? Si es así, descríbamelos y dígame en qué\n              momento y situación de su vida aparecieron:\n            "
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿Ha sido usted ingresado/a alguna vez por un trastorno\n              psicológico?"
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "Vamos a tratar de precisar si pudieran existir algunos otros\n              problemas además de los que usted me ha descrito ya. Le voy a\n              leer distintas posibilidades y usted me va a decir si le ocurren\n              en el presente:\n            "
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-4" }, [
+        _c("label", { attrs: { for: "name" } }, [_vm._v("DROGAS")]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "form-group col-md-4" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("PENSAR QUITARSE LA VIDA")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "form-group col-md-4" }, [
+        _c("label", { attrs: { for: "name" } }, [_vm._v("INSOMNIO ")]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row col-md-12" }, [
+      _c("table", { staticClass: "col-md-12" }, [
+        _c("thead", [
+          _c("tr", [
+            _c("th", [_vm._v("Respuestas Internas (Psicofisiológicas)")]),
+            _vm._v(" "),
+            _c("th", [_vm._v("Frecuencia 1-4")]),
+            _vm._v(" "),
+            _c("th", [_vm._v("Situación")])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("tbody", [
+          _c("tr", [
+            _c("td", [_vm._v("- Sudo")]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("- Me late el corazón fuertemente")]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("- Me siento enrojecer")]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("- Siento tensión muscular")]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("- No paro de moverme")]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("- Tengo un nudo en el estómago")]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("- Respiro agitadamente")]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("- Tiemblo")]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("Cualquier otra:")]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })])
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row col-md-12" }, [
+      _c("table", { staticClass: "col-md-12" }, [
+        _c("thead", [
+          _c("tr", [
+            _c("th", [_vm._v("Respuestas Internas (Pensamientos)")]),
+            _vm._v(" "),
+            _c("th", [_vm._v("Frecuencia 1-4")]),
+            _vm._v(" "),
+            _c("th", [_vm._v("Situación")])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("tbody", [
+          _c("tr", [
+            _c("td", [_vm._v("- La vida no merece la pena")]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("- Me encuentro solo")]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("- A nadie le importo")]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("- Me gustaría morirme")]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("- Soy un desastre")]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("- No voy a poder controlarme")]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("- A la gente no le gusto")]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("- Me voy a desmayar")]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("Cualquier otra:")]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })])
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("strong", [_vm._v("Condiciones familiares actuales")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("Me ha dicho usted que vive con:")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("Quisiera saber más de su situación familiar actual")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿Está casado/a (o vive con una pareja estable)?; dígame la edad\n              y ocupación de su pareja:"
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿Cómo se lleva con su pareja?")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("Si tiene hijos, dígame sus nombres y edades:")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿Qué tal se lleva con sus hijos?")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "Si está divorciado/a o separado/a, ¿cuál fue la razón para la\n              ruptura?"
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿Qué otras personas viven con usted y cómo se lleva con\n              ellas?:"
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿Tiene alguna otra relación importante (aparte de los\n              amigos/as) que no viva con usted?"
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("strong", [
+          _vm._v("En el caso de vivir con la familia de referencia")
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "Si vive con su/s padre/s, dígame qué años tiene/n y a qué se\n              dedica/n:"
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿Cómo se lleva con sus padres?")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "Si tienes hermano/as, dígame qué edad tienen, a qué se dedican\n              y si viven con usted:"
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿Cómo se lleva con sus hermano/as?")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿Qué otras personas viven con usted y cómo se lleva con\n              ellas?"
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿Tiene alguna otra relación importante (aparte de los\n              amigos/as) que no viva con usted?"
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("strong", [
+          _vm._v(
+            "Repercusión del problema por el que consulta en la\n              familia"
+          )
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿El problema por el que consulta qué repercusiones tiene en sus\n              relaciones familiares actuales?"
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿Qué hacen los miembros de su familia cuando aparece?")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿Qué piensan del problema?")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿Por qué piensan y dicen que le ocurre el problema?")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("strong", [_vm._v("Historia familiar")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _vm._v(
+          "\n            Me gustaría saber más de su historia familiar:\n          "
+        )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("strong", [_vm._v("Madre")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-6" }, [
+        _c("label", { attrs: { for: "name" } }, [_vm._v("¿Vive su madre? ")]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "form-group col-md-6" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("(En su caso) ¿De qué murió? ")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-6" }, [
+        _c("label", { attrs: { for: "name" } }, [_vm._v("¿A qué edad?")]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "form-group col-md-6" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("(En su caso) ¿Qué edad tenía usted? ")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-6" }, [
+        _c("label", { attrs: { for: "name" } }, [_vm._v("Edad actual: ")]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "form-group col-md-6" }, [
+        _c("label", { attrs: { for: "name" } }, [_vm._v("Ocupación:")]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _vm._v(
+          "\n            ¿Cómo podría describir las relaciones con su madre a lo largo de\n            la vida? Valore tales relaciones (de 1 = malas a 4 = muy buenas):\n          "
+        )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row col-md-12" }, [
+      _c("table", { staticClass: "col-md-12" }, [
+        _c("thead", [
+          _c("tr", [
+            _c("th"),
+            _vm._v(" "),
+            _c("th", [_vm._v("INFANCIA")]),
+            _vm._v(" "),
+            _c("th", [_vm._v("ADOLESCENCIA")]),
+            _vm._v(" "),
+            _c("th", [_vm._v("JUVENTUD")]),
+            _vm._v(" "),
+            _c("th", [_vm._v("OTRA ETAPA")]),
+            _vm._v(" "),
+            _c("th", [_vm._v("ACTUALIDAD")])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("tbody", [
+          _c("tr", [
+            _c("td", [_vm._v("VALORACIÓN")]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })])
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿Cómo describiría a su madre?")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿Qué actitudes tenía su madre hacia usted?")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿Podría decirme qué hacía su madre para conseguir algo de usted\n              (premios y castigos)?"
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿Qué actividades hacía usted con su madre cuando era\n              niño/a?"
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("strong", [_vm._v("Padre")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-6" }, [
+        _c("label", { attrs: { for: "name" } }, [_vm._v("¿Vive su padre? ")]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "form-group col-md-6" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("(En su caso) ¿De qué murió? ")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-6" }, [
+        _c("label", { attrs: { for: "name" } }, [_vm._v("¿A qué edad?")]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "form-group col-md-6" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("(En su caso) ¿Qué edad tenía usted? ")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-6" }, [
+        _c("label", { attrs: { for: "name" } }, [_vm._v("Edad actual: ")]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "form-group col-md-6" }, [
+        _c("label", { attrs: { for: "name" } }, [_vm._v("Ocupación:")]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _vm._v(
+          "\n            ¿Cómo podría describir las relaciones con su madre a lo largo de\n            la vida? Valore tales relaciones (de 1 = malas a 4 = muy buenas):\n          "
+        )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row col-md-12" }, [
+      _c("table", { staticClass: "col-md-12" }, [
+        _c("thead", [
+          _c("tr", [
+            _c("th"),
+            _vm._v(" "),
+            _c("th", [_vm._v("INFANCIA")]),
+            _vm._v(" "),
+            _c("th", [_vm._v("ADOLESCENCIA")]),
+            _vm._v(" "),
+            _c("th", [_vm._v("JUVENTUD")]),
+            _vm._v(" "),
+            _c("th", [_vm._v("OTRA ETAPA")]),
+            _vm._v(" "),
+            _c("th", [_vm._v("ACTUALIDAD")])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("tbody", [
+          _c("tr", [
+            _c("td", [_vm._v("VALORACIÓN")]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })])
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿Cómo describiría a su padre?")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿Qué actitudes tenía su padre hacia usted?")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿Podría decirme qué hacía su padre para conseguir algo de usted\n              (premios y castigos)?"
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿Qué actividades hacía usted con su padre cuando era niño/a?\n            "
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿Cómo se llevaban su madre y su padre?")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("strong", [
+          _vm._v(
+            "Repercusión del problema por el que consulta en la familia\n            "
+          )
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _vm._v(
+          "\n            Quisiera saber cómo se ha llevado con su/s hermano/a/s a lo largo\n            de su infancia y adolescencia\n          "
+        )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row col-md-12" }, [
+      _c("table", { staticClass: "col-md-12" }, [
+        _c("thead", [
+          _c("tr", [
+            _c("th", [_vm._v("ORDEN")]),
+            _vm._v(" "),
+            _c("th", [_vm._v("SEXO/EDAD")]),
+            _vm._v(" "),
+            _c("th", [_vm._v("INFANCIA")]),
+            _vm._v(" "),
+            _c("th", [_vm._v("ADOLESCENCIA")]),
+            _vm._v(" "),
+            _c("th", [_vm._v("JUVENTUD")]),
+            _vm._v(" "),
+            _c("th", [_vm._v("OTRA ETAPA")]),
+            _vm._v(" "),
+            _c("th", [_vm._v("ACTUALIDAD")])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("tbody", [
+          _c("tr", [
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })])
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿Tenían preferencia su padre o madre por usted o por alguno de\n              sus hermanos/as? (Sí)(No)"
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("Si así es, ¿por quién y por qué?")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿Cuáles fueron los valores más importantes en su familia? (la\n              religión, el trabajo, la igualdad, la solidaridad, etc.):"
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿Tuvo algunos problemas durante su infancia y/o\n              adolescencia?"
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row col-md-12" }, [
+      _c("table", { staticClass: "col-md-12" }, [
+        _c("thead", [
+          _c("tr", [
+            _c("th", [_vm._v("PROBLEMA")]),
+            _vm._v(" "),
+            _c("th", [_vm._v("INFANCIA")]),
+            _vm._v(" "),
+            _c("th", [_vm._v("ADOLESCENCIA")]),
+            _vm._v(" "),
+            _c("th", [_vm._v("JUVENTUD")]),
+            _vm._v(" "),
+            _c("th", [_vm._v("OTRA ETAPA")])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("tbody", [
+          _c("tr", [
+            _c("td", [
+              _vm._v("\n                  -Rendimiento escolar "),
+              _c("br"),
+              _vm._v("\n                  -Problemas de conducta "),
+              _c("br"),
+              _vm._v("\n                  -Ansiedad depresión "),
+              _c("br"),
+              _vm._v("\n                  -Drogas/alcohol "),
+              _c("br"),
+              _vm._v("\n                  -Problemas médicos\n                ")
+            ]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("Otros")]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })])
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("strong", [_vm._v("Historia laboral")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _vm._v(
+          "\n            (Si procede y dependiendo de la edad del sujeto.) Descríbame los\n            trabajos que usted ha ido teniendo y las fechas en los que\n            ocurrieron. Por favor, indíqueme qué aspectos de cada trabajo eran\n            los más satisfactorios para usted (tipo de trabajo) y qué aspectos\n            le producían más agrado o desagrado y cómo se llevaba con sus\n            compañeros/as de trabajo y con sus jefes/as:\n          "
+        )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row col-md-12" }, [
+      _c("table", { staticClass: "col-md-12" }, [
+        _c("thead", [
+          _c("tr", [
+            _c("th", [_vm._v("TRABAJOS")]),
+            _vm._v(" "),
+            _c("th", [_vm._v("ORGANIZACIÓN")]),
+            _vm._v(" "),
+            _c("th", [_vm._v("FECHAS")]),
+            _vm._v(" "),
+            _c("th", [_vm._v("LO QUE MAS ME GUSTABA")]),
+            _vm._v(" "),
+            _c("th", [_vm._v("LO QUE MENOS ME GUSTABA")]),
+            _vm._v(" "),
+            _c("th", [_vm._v("RELACIONES COMPAÑEROS (0-4)")]),
+            _vm._v(" "),
+            _c("th", [_vm._v("RELACIONES JEFAS/ES (0-4)")])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("tbody", [
+          _c("tr", [
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })])
+          ]),
+          _vm._v(" "),
+          _c("tr", [
+            _c("td", [_vm._v("Actualmente")]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })]),
+            _vm._v(" "),
+            _c("td", [_c("input", { staticClass: "form-control" })])
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿Actualmente qué trabajo (en su caso) lleva a cabo?")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿Cuántas horas trabaja a la semana (en promedio)?")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v(
+            "¿Qué cursos o seminarios ha realizado para incrementar sus\n              habilidades ocupacionales?"
+          )
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }, [
+          _vm._v("¿Qué expectativas tiene relativas al trabajo?")
+        ]),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("strong", [_vm._v("Padre")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "form-group col-md-12" }, [
+        _c("label", { attrs: { for: "name" } }),
+        _vm._v(" "),
+        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e&":
 /*!*******************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e& ***!
@@ -55519,6 +58713,7 @@ Vue.component('contacto-component', __webpack_require__(/*! ./components/Contact
 Vue.component('programainv-component', __webpack_require__(/*! ./components/ProgramaIntervencion.vue */ "./resources/js/components/ProgramaIntervencion.vue")["default"]);
 Vue.component('sesiograma-component', __webpack_require__(/*! ./components/Sesiograma.vue */ "./resources/js/components/Sesiograma.vue")["default"]);
 Vue.component('miniexamen-component', __webpack_require__(/*! ./components/MiniExamen.vue */ "./resources/js/components/MiniExamen.vue")["default"]);
+Vue.component('entrevistaini-component', __webpack_require__(/*! ./components/Entrevistainicial.vue */ "./resources/js/components/Entrevistainicial.vue")["default"]);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -55640,6 +58835,75 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Contacto_vue_vue_type_template_id_672db63a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Contacto_vue_vue_type_template_id_672db63a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Entrevistainicial.vue":
+/*!*******************************************************!*\
+  !*** ./resources/js/components/Entrevistainicial.vue ***!
+  \*******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Entrevistainicial_vue_vue_type_template_id_c69b096a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Entrevistainicial.vue?vue&type=template&id=c69b096a& */ "./resources/js/components/Entrevistainicial.vue?vue&type=template&id=c69b096a&");
+/* harmony import */ var _Entrevistainicial_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Entrevistainicial.vue?vue&type=script&lang=js& */ "./resources/js/components/Entrevistainicial.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Entrevistainicial_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Entrevistainicial_vue_vue_type_template_id_c69b096a___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Entrevistainicial_vue_vue_type_template_id_c69b096a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/Entrevistainicial.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/Entrevistainicial.vue?vue&type=script&lang=js&":
+/*!********************************************************************************!*\
+  !*** ./resources/js/components/Entrevistainicial.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Entrevistainicial_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./Entrevistainicial.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Entrevistainicial.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Entrevistainicial_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/Entrevistainicial.vue?vue&type=template&id=c69b096a&":
+/*!**************************************************************************************!*\
+  !*** ./resources/js/components/Entrevistainicial.vue?vue&type=template&id=c69b096a& ***!
+  \**************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Entrevistainicial_vue_vue_type_template_id_c69b096a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./Entrevistainicial.vue?vue&type=template&id=c69b096a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Entrevistainicial.vue?vue&type=template&id=c69b096a&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Entrevistainicial_vue_vue_type_template_id_c69b096a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Entrevistainicial_vue_vue_type_template_id_c69b096a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

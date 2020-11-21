@@ -28,7 +28,7 @@ Vue.component('contacto-component', require('./components/Contacto.vue').default
 Vue.component('programainv-component', require('./components/ProgramaIntervencion.vue').default);
 Vue.component('sesiograma-component', require('./components/Sesiograma.vue').default);
 Vue.component('miniexamen-component', require('./components/MiniExamen.vue').default);
-
+Vue.component('entrevistaini-component', require('./components/Entrevistainicial.vue').default);
 
 
 /**
