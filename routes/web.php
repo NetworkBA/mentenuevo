@@ -49,6 +49,10 @@ Route::get('/EntrevistaInicial', function () {
     return view('entrevistainicial');
 });
 
+Route::get('admin', function () {
+    return view('admin_template');
+});
+
 
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {

@@ -5,7 +5,7 @@
  */
 
 require('./bootstrap');
-
+//require('./bower_components');
 window.Vue = require('vue');
 
 /**
