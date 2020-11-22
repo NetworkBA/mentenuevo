@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\User;
 
 class PacientesController extends Controller
 {
@@ -11,7 +12,7 @@ class PacientesController extends Controller
     {
         $pacientes = User::where('id_tipo',3)->get();
 
-        return $pacientes;
+        return response()->json(['pacientes'=>$pacientes]);
     }
 
     public function create()
@@ -44,7 +45,7 @@ class PacientesController extends Controller
     public function show($id)
     {
         $paciente = User::find($id);
-        return $paciente;
+        return response()->json(['paciente'=>$paciente]);
     }
 
     public function edit($id)
@@ -76,7 +77,7 @@ class PacientesController extends Controller
 
     public function destroy($id)
     {
-        $paciente = Paciente::findOrFail($id);
+        $paciente = User::findOrFail($id);
         $paciente->delete();
         //return back()->with('success','Se ha eliminado el Especialista con id $id.');
         return response()->json([

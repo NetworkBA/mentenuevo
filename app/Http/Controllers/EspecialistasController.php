@@ -12,7 +12,8 @@ class EspecialistasController extends Controller
         $especialistas = User::where('id_tipo',2)->get();
         //dd($especialistas);
 
-        return $especialistas;
+        
+        return response()->json(['especialistas'=>$especialistas]);
     }
 
     public function create()
@@ -45,8 +46,7 @@ class EspecialistasController extends Controller
     public function show($id)
     {
         $especialista = User::find($id);
-        dd($especialista);
-        //return $especialista;
+        return response()->json(['especialista'=>$especialista]);
     }
 
     public function edit($id)
@@ -81,7 +81,7 @@ class EspecialistasController extends Controller
 
     public function destroy($id)
     {
-        $especialista = Especialista::findOrFail($id);
+        $especialista = User::findOrFail($id);
         $especialista->delete();
 
         //return back()->with('success','Se ha eliminado el Especialista con id $id.');
