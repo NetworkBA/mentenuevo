@@ -1,0 +1,11 @@
+.form-control {
+    background-color: transparent;
+    color: #000000;
+    outline: none;
+    outline-style: none;
+    outline-offset: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #000000 1px;
+}
