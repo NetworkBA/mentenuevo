@@ -6,7 +6,8 @@ use App\Http\Controllers\EspecialistasController;
 use App\Http\Controllers\PacientesController;
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\MiniExamenMentalController;
-
+use App\Http\Controllers\EntrevistaInicialController; 
+use Illuminate\Support\Facades\Auth;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,7 +21,7 @@ use App\Http\Controllers\MiniExamenMentalController;
 
 Route::get('/', function () {
     return view('front.index');
-});
+})->name('index');
 Route::get('/Login', function () {
     return view('login');
 });
@@ -46,7 +47,7 @@ Route::get('/MiniExamen', function () {
 });
 
 Route::get('/EntrevistaInicial', function () {
-    return view('entrevistainicial');
+    return view('entrevistaInicial');
 });
 
 Route::get('admin', function () {
@@ -59,13 +60,18 @@ route::get('admin2', function(){
 
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return view('dashboard');
+    if( Auth::user()->id_tipo == 3){
+        return view('formulario ');
+    }
+    else{
+        return view('ejemploVDG');
+    }
 })->name('dashboard');
 
 //rutas para login con cuentas de facebook y google
 Route::get('login/{driver}', [LoginController::class, 'redirectToProvider']);
 Route::get('login/{driver}/callback', [LoginController::class, 'handleProviderCallback']);
-
+Route::get('logout',[LoginController::class ,'logout'])->name('logout');
 
 //rutas de contactos
 Route::get('/contacto/crear',[ContactosController::class,'create'])->name('contacto.crear');
@@ -92,17 +98,21 @@ Route::post('/contacto/store',[ContactosController::class,'store'])->name('conta
     Route::delete('/especialista/eliminar/{id}',[EspecialistasController::class,'destroy'])->name('especialista.eliminar');    
 
     //Pacientes
-    Route::get('/paciente/crear',[PacientesController::class,'create'])->name('especialista.crear');
-    Route::post('/paciente/store',[PacientesController::class,'store'])->name('especialista.store');
-    Route::get('/paciente/listar',[PacientesController::class,'index'])->name('especialista.listar');
-    Route::get('/paciente/ver/{id}',[PacientesController::class,'show'])->name('especialista.ver');
-    Route::get('/paciente/editar/{id}',[PacientesController::class,'edit'])->name('especialista.editar');
-    Route::post('/paciente/actualizar',[PacientesController::class,'update'])->name('especialista.actualizar');
-    Route::delete('/paciente/eliminar/{id}',[PacientesController::class,'destroy'])->name('especialista.eliminar');    
+    Route::get('/paciente/crear',[PacientesController::class,'create'])->name('paciente.crear');
+    Route::post('/paciente/store',[PacientesController::class,'store'])->name('paciente.store');
+    Route::get('/paciente/listar',[PacientesController::class,'index'])->name('paciente.listar');
+    Route::get('/paciente/ver/{id}',[PacientesController::class,'show'])->name('paciente.ver');
+    Route::get('/paciente/editar/{id}',[PacientesController::class,'edit'])->name('paciente.editar');
+    Route::post('/paciente/actualizar',[PacientesController::class,'update'])->name('paciente.actualizar');
+    Route::delete('/paciente/eliminar/{id}',[PacientesController::class,'destroy'])->name('paciente.eliminar');    
 
 
     //Mini Examen Mental
 
     Route::get('/miniExamen/listar',[MiniExamenMentalController::class,'index'])->name('miniExamen.listar');
+
+    //Entrevista inicial 
+
+    Route::post('/entrevistaInicial/store',[EntrevistaInicialController::class,'store'])->name('entrevista.store');
 
 //});

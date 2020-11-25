@@ -36,16 +36,16 @@
                   class="btn btn-primary mx-auto btn-lg"
                   style="background-color: #76cee6"
                 >
-                  Primary
+                  Registrarme
                 </button>
-              </div>
+              </div><br>
               <div class="row">
                 <button
                   type="submit"
                   class="btn btn-success mx-auto btn-lg"
                   style="background-color: #27cc9a"
                 >
-                  Success
+                  Iniciar sesión
                 </button>
               </div>
             </div>

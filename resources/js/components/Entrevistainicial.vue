@@ -9,7 +9,7 @@
               <label for="name">Nombre del Entrevistador:</label>
             </div>
             <div class="col-md-7">
-              <input class="form-control" id="name" />
+              <input class="form-control" id="name"  name="nombreEntrevistador"/>
             </div>
             <div class="col-md-1">
               <label for="ap">Fecha</label>
@@ -1576,7 +1576,7 @@
         </div>
         <div class="row">
           <button
-            type="button"
+            :type="typeBtn"
             class="btn btn-primary mx-auto btn-lg"
             style="background-color: #76cee6"
             v-on:click="Adelante"
@@ -1607,6 +1607,7 @@ export default {
       mostrar: 1,
       tope: 10,
       buttontext: "Siguiente",
+      typeBtn: "button", 
     };
   },
   methods: {
@@ -1616,6 +1617,7 @@ export default {
         this.buttontext = "Siguiente";
       } else {
         this.buttontext = "Enviar";
+        this.typeBtn = "submit";
       }
     },
   },

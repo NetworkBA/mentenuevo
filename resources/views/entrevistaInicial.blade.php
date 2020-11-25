@@ -16,7 +16,11 @@
 <body>
 	<div id="app" class="content">
 		<header-component></header-component>
-		<entrevistaini-component></entrevistaini-component>
+		<form action="{{ route('entrevista.store') }}" method='POST' >
+		   @csrf
+		   <entrevistaini-component></entrevistaini-component>
+		</form>
+		
 	</div>
 	<script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
 	<script src="{{asset('js/app.js')}}"></script>
