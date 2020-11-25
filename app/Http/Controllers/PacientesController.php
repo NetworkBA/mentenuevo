@@ -39,7 +39,7 @@ class PacientesController extends Controller
         //return back()->with('success','Se ha creado un nuevo Especialista.');
         return response()->json([
             'estatus' => 'Exitoso',
-            'mensaje' => 'success','Se ha creado un nuevo Especialista.']);
+            'mensaje' => 'success','Se ha creado un nuevo Paciente.']);
     }
 
     public function show($id)

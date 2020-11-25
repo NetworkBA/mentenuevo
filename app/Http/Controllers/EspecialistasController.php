@@ -53,7 +53,7 @@ class EspecialistasController extends Controller
     {
         $especialista = User::find($id);
         //dd($especialista);
-        return view('Especialista.editar',compact('$especialista'));
+       // return view('Especialista.editar',compact(json(["especialista"=>$especialista])));
     }
 
     public function update(Request $request, $id)

@@ -35,14 +35,13 @@ class ContactosController extends Controller
     public function show($id)
     {
         $contacto = contacto::find($id);
-        dd($contacto);
-        //return $contacto;
+        return response()->json(['contacto'=>$contacto]);
     }
 
     public function edit($id)
     {
         $contacto = contacto::find($id);
-        //return view('contactoEditar',compact($contacto));
+        return response()->json(["contacto"=>$contacto]);
     }
 
     public function update(Request $request, $id)
