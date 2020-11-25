@@ -53,6 +53,9 @@ Route::get('admin', function () {
     return view('admin_template');
 });
 
+route::get('admin2', function(){
+    return view('ejemploVDG');
+});
 
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
