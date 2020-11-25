@@ -49,9 +49,16 @@ Route::get('/EntrevistaInicial', function () {
     return view('entrevistainicial');
 });
 
-Route::get('admin', function () {
+Route::get('adminBeta', function () {
     return view('admin_template');
 });
+Route::get('adminBeta/{data}', function () {
+    return view('admin_template');
+});
+Route::get('adminBeta/{data}/{Opcion}', function () {
+    return view('admin_template');
+});
+
 
 route::get('admin2', function(){
     return view('ejemploVDG');
