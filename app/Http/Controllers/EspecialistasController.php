@@ -58,7 +58,7 @@ class EspecialistasController extends Controller
 
     public function update(Request $request, $id)
     {
-        $especialista = User::find($id);
+/*        $especialista = User::find($id);
 
         $especialista->name             = $request->name;
         $especialista->id_tipo          = $request->id_tipo;
@@ -72,12 +72,14 @@ class EspecialistasController extends Controller
         $especialista->especialidad     = $request->especialidad;
         $especialista->id_motivo        = $request->id_motivo;
         $especialista->save();
-
+*/
         //return back()->with('success','Se han actualizado los detos del Especialista.');
-        return response()->json([
+ /*       return response()->json([
             'estatus' => 'Exitoso',
             'mensaje' => 'success','Se han actualizado los detos del Especialista.']);
-    }
+  */ 
+     return view('dashboard');
+        }
 
     public function destroy($id)
     {

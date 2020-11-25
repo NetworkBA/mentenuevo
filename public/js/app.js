@@ -3927,7 +3927,8 @@ __webpack_require__.r(__webpack_exports__);
     return {
       mostrar: 1,
       tope: 10,
-      buttontext: "Siguiente"
+      buttontext: "Siguiente",
+      typeBtn: "button"
     };
   },
   methods: {
@@ -3937,6 +3938,7 @@ __webpack_require__.r(__webpack_exports__);
         this.buttontext = "Siguiente";
       } else {
         this.buttontext = "Enviar";
+        this.typeBtn = "submit";
       }
     }
   }
@@ -4031,6 +4033,8 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
 //
 //
 //
@@ -42731,7 +42735,7 @@ var render = function() {
               {
                 staticClass: "btn btn-primary mx-auto btn-lg",
                 staticStyle: { "background-color": "#76cee6" },
-                attrs: { type: "button" },
+                attrs: { type: _vm.typeBtn },
                 on: { click: _vm.Adelante }
               },
               [
@@ -42763,7 +42767,10 @@ var staticRenderFns = [
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "col-md-7" }, [
-        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { id: "name", name: "nombreEntrevistador" }
+        })
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "col-md-1" }, [
@@ -45829,7 +45836,7 @@ var staticRenderFns = [
                 _vm._v(" "),
                 _c("input", {
                   staticClass: "form-control",
-                  attrs: { id: "name" }
+                  attrs: { name: "name", id: "name" }
                 })
               ]),
               _vm._v(" "),
@@ -45838,7 +45845,7 @@ var staticRenderFns = [
                 _vm._v(" "),
                 _c("input", {
                   staticClass: "form-control",
-                  attrs: { id: "ap" }
+                  attrs: { name: "apellido", id: "ap" }
                 })
               ]),
               _vm._v(" "),
@@ -45847,7 +45854,7 @@ var staticRenderFns = [
                 _vm._v(" "),
                 _c("input", {
                   staticClass: "form-control",
-                  attrs: { id: "na" }
+                  attrs: { name: "nacionalidad", id: "na" }
                 })
               ])
             ]),
@@ -45858,7 +45865,7 @@ var staticRenderFns = [
                   _vm._v("Nacionalidad")
                 ]),
                 _vm._v(" "),
-                _c("div", { attrs: { id: "sex" } }, [
+                _c("div", { attrs: { name: "sexo", id: "sex" } }, [
                   _c("div", { staticClass: "col" }, [
                     _c(
                       "button",
@@ -45888,7 +45895,7 @@ var staticRenderFns = [
                 _vm._v(" "),
                 _c("input", {
                   staticClass: "form-control",
-                  attrs: { id: "tel" }
+                  attrs: { name: "telefono", id: "tel" }
                 })
               ])
             ]),
@@ -45903,7 +45910,7 @@ var staticRenderFns = [
                   "select",
                   {
                     staticClass: "form-control form-control-lg",
-                    attrs: { id: "DD" }
+                    attrs: { name: "fecha_nacimiento", id: "DD" }
                   },
                   [_c("option", [_vm._v("Large select")])]
                 )
@@ -45918,7 +45925,7 @@ var staticRenderFns = [
                   "select",
                   {
                     staticClass: "form-control form-control-lg",
-                    attrs: { id: "MM" }
+                    attrs: { name: "id_motivo", id: "MM" }
                   },
                   [_c("option", [_vm._v("Large select")])]
                 )
@@ -45933,7 +45940,7 @@ var staticRenderFns = [
                   "select",
                   {
                     staticClass: "form-control form-control-lg",
-                    attrs: { id: "YYY" }
+                    attrs: { name: "", id: "YYY" }
                   },
                   [_c("option", [_vm._v("Large select")])]
                 )
@@ -45948,7 +45955,7 @@ var staticRenderFns = [
                   "select",
                   {
                     staticClass: "form-control form-control-lg",
-                    attrs: { id: "Motivo" }
+                    attrs: { name: "", id: "Motivo" }
                   },
                   [_c("option", [_vm._v("Large select")])]
                 )
@@ -45956,15 +45963,17 @@ var staticRenderFns = [
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "row" }, [
-              _c(
-                "button",
-                {
-                  staticClass: "btn btn-primary mx-auto btn-lg",
-                  staticStyle: { "background-color": "#76cee6" },
-                  attrs: { type: "button" }
-                },
-                [_vm._v("\n          Enviar\n        ")]
-              )
+              _c("a", { attrs: { href: "/EntrevistaInicial" } }, [
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-primary mx-auto btn-lg",
+                    staticStyle: { "background-color": "#76cee6" },
+                    attrs: { type: "button" }
+                  },
+                  [_vm._v("\n          Enviar\n        ")]
+                )
+              ])
             ])
           ]
         )
@@ -46240,9 +46249,10 @@ var staticRenderFns = [
               staticStyle: { "background-color": "#76cee6" },
               attrs: { type: "button" }
             },
-            [_vm._v("\n                Primary\n              ")]
+            [_vm._v("\n                Registrarme\n              ")]
           )
         ]),
+        _c("br"),
         _vm._v(" "),
         _c("div", { staticClass: "row" }, [
           _c(
@@ -46252,7 +46262,7 @@ var staticRenderFns = [
               staticStyle: { "background-color": "#27cc9a" },
               attrs: { type: "submit" }
             },
-            [_vm._v("\n                Success\n              ")]
+            [_vm._v("\n                Iniciar sesión\n              ")]
           )
         ])
       ])
