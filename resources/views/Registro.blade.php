@@ -11,7 +11,8 @@
 	<title>Mente Cuatro Cero</title>
 </head>
 <body>
-	<div id="app" class="content">
+	<div id="app" class="content"> 
+		<!-- commentario -->
 		<header-component></header-component>
 		<form method="POST"  action="{{ route('register') }}">
 			 @csrf
