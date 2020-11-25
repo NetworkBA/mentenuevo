@@ -13,7 +13,8 @@
 </head>
 
 <body>
-	<div id="app" class="content">
+	<div id="app" class="content"> 
+		<!-- commentario -->
 		<header-component></header-component>
 		<registro-component></registro-component>
 		<footer-component></footer-component>
