@@ -130,11 +130,24 @@
                     <span class="pcoded-mcaret"></span>
                   </a>
                 </li>
+                 <li class="">
+                  <a href="/adminBeta/Paciente">
+                    <span class="pcoded-micon"
+                      ><i class="ti-layout-cta-right"></i><b>N</b></span
+                    >
+                    <span class="pcoded-mtext" data-i18n="nav.navigate.main"
+                      >Pacientes</span
+                    >
+                    <span class="pcoded-mcaret"></span>
+                  </a>
+                </li>
               </ul>
             </div>
           </nav>
           <medicos-component v-show="Tipo == 'Medico'"></medicos-component>
           <addMedico-component v-show="Tipo == 'AddMedi'"></addMedico-component>
+           <pacientes-component v-show="Tipo == 'Paciente'"></pacientes-component>
+          <addpaciente-component v-show="Tipo == 'AddPacien'"></addpaciente-component>
         </div>
       </div>
     </div>
@@ -160,6 +173,14 @@ export default {
         this.Tipo = "AddMedi";
       } else {
         this.Tipo = "Medico";
+      }
+    }
+     if (ok[2] == "Paciente") {
+      if (ok.length > 3) {
+        console.log("Entro 2");
+        this.Tipo = "AddPacien";
+      } else {
+        this.Tipo = "Paciente";
       }
     }
   },
