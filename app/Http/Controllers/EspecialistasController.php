@@ -18,9 +18,7 @@ class EspecialistasController extends Controller
 
     public function create()
     {
-       // return view('Especialistas.crear');
-
-       return "formulario para crear especialista";
+       return view('Especialistas.create');
     }
 
     public function store(Request $request)

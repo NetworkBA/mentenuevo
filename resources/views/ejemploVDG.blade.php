@@ -3,8 +3,25 @@
     {{-- Seccion para poner css --}}
 @endsection
 
-@section('titulo-header', 'Titulo de prueba')
-@section('descripcion-header', 'Descripcion de prueba')
+@section('header')
+
+    <div class="page-header card">
+        <div class="row align-items-end">
+            <div class="col-lg-8">
+                <div class="page-header-title">
+                    <i class="icofont icofont-layout bg-c-blue"></i> {{-- <- Icono del header --}}
+                    <div class="d-inline">
+                        <h4>Titulo</h4>
+                        <span>Descripción</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+@endsection
+
+
 
 @section('contenido')
     <div class="card">
