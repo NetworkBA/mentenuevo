@@ -12,8 +12,8 @@ class EspecialistasController extends Controller
         $especialistas = User::where('id_tipo',2)->get();
         //dd($especialistas);
 
-        
-        return response()->json(['especialistas'=>$especialistas]);
+        return view('Especialistas.index');
+        //return response()->json(['especialistas'=>$especialistas]);
     }
 
     public function create()
@@ -51,7 +51,8 @@ class EspecialistasController extends Controller
     {
         $especialista = User::find($id);
         //dd($especialista);
-       // return view('Especialista.editar',compact(json(["especialista"=>$especialista])));
+        return view('Especialistas.edit');
+        //return view('Especialista.edit',compact(json(["especialista"=>$especialista])));
     }
 
     public function update(Request $request, $id)
