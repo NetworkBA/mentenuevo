@@ -36,7 +36,6 @@ class PacientesController extends Controller
             'fecha_nacimiento'  => $request->fecha_nacimiento,
             'id_motivo'         => $request->id_motivo
         ]);
-        //return back()->with('success','Se ha creado un nuevo Especialista.');
         return response()->json([
             'estatus' => 'Exitoso',
             'mensaje' => 'success','Se ha creado un nuevo Paciente.']);
@@ -51,7 +50,7 @@ class PacientesController extends Controller
     public function edit($id)
     {
         $paciente = User::find($id);
-       // return view('paciente.editar', ['paciente'=>$paciente]);
+        return response()->json(['paciente'=>$paciente]);
     }
 
     public function update(Request $request, $id)
@@ -69,7 +68,6 @@ class PacientesController extends Controller
         $paciente->id_motivo        = $request->id_motivo;
         $paciente->save();
 
-        //return back()->with('success','Se han actualizado los detos del paciente.');
         return response()->json([
             'estatus' => 'Exitoso',
             'mensaje' => 'success','Se han actualizado los detos del paciente.']);
@@ -79,7 +77,6 @@ class PacientesController extends Controller
     {
         $paciente = User::findOrFail($id);
         $paciente->delete();
-        //return back()->with('success','Se ha eliminado el Especialista con id $id.');
         return response()->json([
             'estatus' => 'Exitoso',
             'mensaje' => 'success','Se ha eliminado el Paciente con id $id.']);

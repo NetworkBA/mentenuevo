@@ -11,7 +11,7 @@ class ContactosController extends Controller
     public function index()
     {
         $contactos = contacto::all();
-        return $contactos; 
+        return response()->json(["contactos"=>$contactos]); 
     }
 
     public function create()
@@ -64,7 +64,6 @@ class ContactosController extends Controller
         $contacto = contacto::findOrFail($id);
         $contacto->delete();
 
-        //return back()->with('success','Se ha eliminado el contacto con id $id.');
         return response()->json([
             'estatus' => 'Exitoso',
             'mensaje' => 'success','Se ha eliminado el contacto con id $id.']);
