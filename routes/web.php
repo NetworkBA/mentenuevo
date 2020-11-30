@@ -61,6 +61,7 @@ Route::get('adminBeta/{data}/{Opcion}', function () {
 });
 
 
+
 route::get('admin2', function(){
     return view('ejemploVDG');
 });

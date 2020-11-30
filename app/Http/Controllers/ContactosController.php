@@ -26,7 +26,6 @@ class ContactosController extends Controller
                             'email'=>   $r->email,
                             'mensaje'=> $r->mensaje]);
 
-       //return back()->with('success','Se han enviado tus datos de contacto.');
        return response()->json([
                             'estatus' => 'Exitoso',
                             'mensaje' => 'Se han enviado tus datos de contacto.']);
