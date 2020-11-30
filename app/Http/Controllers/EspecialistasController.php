@@ -12,8 +12,8 @@ class EspecialistasController extends Controller
         $especialistas = User::where('id_tipo',2)->get();
         //dd($especialistas);
 
-        return view('Especialistas.index');
-        //return response()->json(['especialistas'=>$especialistas]);
+       // return view('Especialistas.index');
+        return response()->json(['especialistas'=>$especialistas]);
     }
 
     public function create()
