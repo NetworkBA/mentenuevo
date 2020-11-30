@@ -10,9 +10,6 @@ class EspecialistasController extends Controller
     public function index()
     {
         $especialistas = User::where('id_tipo',2)->get();
-        //dd($especialistas);
-
-       // return view('Especialistas.index');
         return response()->json(['especialistas'=>$especialistas]);
     }
 
@@ -35,7 +32,6 @@ class EspecialistasController extends Controller
             'fecha_nacimiento'  => $request->fecha_nacimiento,
             'especialidad'      => $request->especialidad,
         ]);
-        //return back()->with('success','Se ha creado un nuevo Especialista.');
         return response()->json([
             'estatus' => 'Exitoso',
             'mensaje' => 'success','Se ha creado un nuevo Especialista.']);
@@ -50,9 +46,8 @@ class EspecialistasController extends Controller
     public function edit($id)
     {
         $especialista = User::find($id);
-        //dd($especialista);
-        return view('Especialistas.edit');
-        //return view('Especialista.edit',compact(json(["especialista"=>$especialista])));
+
+        return response()->json(["especialista"=>$especialista]);
     }
 
     public function update(Request $request, $id)
@@ -85,7 +80,6 @@ class EspecialistasController extends Controller
         $especialista = User::findOrFail($id);
         $especialista->delete();
 
-        //return back()->with('success','Se ha eliminado el Especialista con id $id.');
         return response()->json([
             'estatus' => 'Exitoso',
             'mensaje' => 'success','Se ha eliminado el Especialista con id $id.']);
