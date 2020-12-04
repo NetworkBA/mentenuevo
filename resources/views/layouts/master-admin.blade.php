@@ -63,7 +63,7 @@
                             <li class="user-profile header-notification">
                                 <a href="#!">
                                 <img src="{{asset('/admin/assets/images/avatar-4.jpg')}}" class="img-radius" alt="User-Profile-Image">
-                                <span>John Doe</span>
+                                <span>{{ Auth::user()->name }}</span>
                                 <i class="ti-angle-down"></i>
                             </a>
                                 <ul class="show-notification profile-notification">
@@ -108,8 +108,17 @@
                                 <div class="main-menu-header">
                                     <img class="img-40 img-radius" src="{{asset('/admin/assets/images/avatar-4.jpg')}}" alt="User-Profile-Image">
                                     <div class="user-details">
-                                        <span>John Doe</span>
-                                        <span id="more-details">UX Designer</span>
+                                        <span>{{ Auth::user()->name.' '.Auth::user()->apellido }}</span>
+                                        <span id="more-details">  
+                                                @switch(Auth::user()->id_tipo)
+                                                   @case(1) Administrador
+                                                        @break 
+                                                   @case(2) Especialista
+                                                        @break 
+                                                   @case(3) Usuario
+                                                        @break  
+                                                @endswitch   
+                                        </span>
                                     </div>
                                 </div>                              
                             </div>
