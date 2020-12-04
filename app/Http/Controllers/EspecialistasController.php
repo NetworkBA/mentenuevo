@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\User;
+use ReCaptcha\Response;
 
 class EspecialistasController extends Controller
 {
@@ -20,6 +21,16 @@ class EspecialistasController extends Controller
 
     public function store(Request $request)
     {
+
+        
+        $user = User::where('email',$request->email)->count();
+        
+        if($user){
+            return response()->json([
+                'estatus' => 'Error',
+                'mensaje' => 'success','El correo $request->email ya está asociado a una cuenta']);
+        }
+
         User::create([
             'name'              => $request->name,
             'id_tipo'           => 2,    

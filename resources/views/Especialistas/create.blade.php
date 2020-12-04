@@ -31,24 +31,24 @@
         
         <div class="card-block">
             <h4 class="sub-title">Información Personal</h4>
-            <form id="main" method="post" action="/" novalidate>
+            <form id="main" method="post" action="{{ route('especialista.store') }}"   >
 
                 <div class="form-group row">
                     <div class="col">
                         <div class="form-group col-sm-12">
                             <label class="">Nombre</label>
-                            <input type="text" class="form-control form-control-round" name="name" placeholder="Ingrese el nombre del especialista">
+                            <input type="text" class="form-control form-control-round" name="name" placeholder="Ingrese el nombre del especialista" required>
                         </div>
                         <div class="form-group col-sm-12">
                             <label class="">Teléfono</label>
-                            <input type="text" class="form-control form-control-round" name="telefono" placeholder="Ingrese el teléfono del especialista">
+                            <input type="text"  minlength="10" maxlength="10" class="form-control form-control-round" name="telefono" placeholder="Ingrese el teléfono del especialista" required>
                         </div>
                         <div class="form-group col-sm-12">
                             <label class="">Sexo</label>
-                            <select name="sexo" class="form-control form-control-round" id="">
+                            <select name="sexo" class="form-control form-control-round" id="" required>
                                 <option selected disabled>Seleccione una Opción</option>
-                                <option value="Masculino">Masculino</option>
-                                <option value="Femenino">Femenino</option>
+                                <option value="M">Masculino</option>
+                                <option value="F">Femenino</option>
                             </select>
                         </div>
                         <div class="form-group col-sm-12">
@@ -60,15 +60,15 @@
                     <div class="col">
                         <div class="form-group col-sm-12">
                             <label class="">Apellido</label>
-                            <input type="text" class="form-control form-control-round" name="apellido" placeholder="Ingrese el apellido del especialista">
+                            <input type="text" class="form-control form-control-round" name="apellido" placeholder="Ingrese el apellido del especialista" required>
                         </div>
                         <div class="form-group col-sm-12">
                             <label class="">Fecha de Nacimiento</label>
-                            <input type="date" class="form-control form-control-round" name="fecha_nacimiento" placeholder="Ingrese la fecha de nacimiento del especialista">
+                            <input type="date" class="form-control form-control-round" name="fecha_nacimiento" placeholder="Ingrese la fecha de nacimiento del especialista" required>
                         </div>
                         <div class="form-group col-sm-12">
                             <label class="">Nacionalidad</label>
-                            <input type="text" class="form-control form-control-round" name="nacionalidad" placeholder="Ingrese la nacionalidad del especialista">
+                            <input type="text" class="form-control form-control-round" name="nacionalidad" placeholder="Ingrese la nacionalidad del especialista" required>
                         </div>
                     </div>
                 </div>
@@ -78,11 +78,11 @@
                         <h4 class="sub-title">Cuenta</h4>
                         <div class="form-group col-sm-12">
                             <label class="">Correo Electrónico</label>
-                            <input type="email" class="form-control form-control-round" name="email" placeholder="Ingrese el correo electrónico del especialista">
+                            <input type="email" class="form-control form-control-round" name="email" placeholder="Ingrese el correo electrónico del especialista" required>
                         </div>
                         <div class="form-group col-sm-12">
                             <label class="">Contraseña</label>
-                            <input type="password" class="form-control form-control-round" name="password" placeholder="Cree una contraseña para el especialista">
+                            <input type="password" class="form-control form-control-round" name="password" placeholder="Cree una contraseña para el especialista" required>
                         </div>
                     </div>
                     
