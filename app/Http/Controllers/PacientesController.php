@@ -84,4 +84,8 @@ class PacientesController extends Controller
             'estatus' => 'Exitoso',
             'mensaje' => 'success','Se ha eliminado el Paciente con id $id.']);
     }
+
+    public function agendarCita(){
+        return view ('Pacientes.createCita');
+    }
 }
