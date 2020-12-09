@@ -13,7 +13,12 @@
 <body>
 	<div id="app" class="content">
 		<header-component></header-component>
-			<formulario-component></formulario-component>
+			<form action="{{ route('paciente.actualizar',['id'=>auth()->user()->id]) }}" method="post">
+					<input type="text" name="name"  value="{{ auth()->user()->name}}" hidden>
+					<input type="text" name="email" value="{{ auth()->user()->email}}" hidden>
+					<input type="text" name="password" value="{{ auth()->user()->password}}" hidden>
+					<formulario-component></formulario-component>
+			</form>
 		<footer-component></footer-component>
 	</div>
 	<script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>

@@ -111,7 +111,7 @@ Route::post('/contacto/store',[ContactosController::class,'store'])->name('conta
     Route::get('/paciente/listar',[PacientesController::class,'index'])->name('paciente.listar');
     Route::get('/paciente/ver/{id}',[PacientesController::class,'show'])->name('paciente.ver');
     Route::get('/paciente/editar/{id}',[PacientesController::class,'edit'])->name('paciente.editar');
-    Route::post('/paciente/actualizar',[PacientesController::class,'update'])->name('paciente.actualizar');
+    Route::post('/paciente/actualizar/{id}',[PacientesController::class,'update'])->name('paciente.actualizar');
     Route::delete('/paciente/eliminar/{id}',[PacientesController::class,'destroy'])->name('paciente.eliminar');    
     Route::get('/paciente/agendar',[PacientesController::class,'agendarCita'])->name('paciente.agendar');
 

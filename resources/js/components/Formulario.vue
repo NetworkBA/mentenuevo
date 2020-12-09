@@ -20,60 +20,40 @@
         <div class="row">
           <div class="form-group col-md-6">
             <label for="sex">Nacionalidad</label>
-            <div name="sexo" id="sex">
-              <div class="col">
-                <button
-                  type="button"
-                  class="btn btn-primary mx-auto btn-lg"
-                  style="background-color: #76cee6"
-                >
-                  Masculino
-                </button>
-                <button
-                  type="button"
-                  class="btn btn-primary mx-auto btn-lg"
-                  style="background-color: #76cee6"
-                >
-                  Femenino
-                </button>
+            <div  id="sex">
+              <div name="sexo" class="col">
+                <div>
+                  <input type="radio" id="huey" name="drone" value="huey"
+                        checked>
+                  <label for="huey">Huey</label>
+                </div>
+
+                <div>
+                  <input type="radio" id="dewey" name="drone" value="dewey">
+                  <label for="dewey">Dewey</label>
+                </div>
               </div>
             </div>
           </div>
           <div class="form-group col-md-6">
             <label for="tel">Teléfono</label>
-            <input class="form-control" name="telefono" id="tel" />
+            <input class="form-control" type="tel" name="telefono" id="tel" maxlength="10" minlength="10" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" />
           </div>
         </div>
         <div class="row">
-          <div class="form-group col-md-2">
+          <div class="form-group col-md-4">
             <label for="DD">Fecha de Nacimiento</label>
-            <select name="fecha_nacimiento" id="DD" class="form-control form-control-lg">
-              <option>Large select</option>
-            </select>
-          </div>
-          <div class="form-group col-md-2">
-            <label for="MM">Motivo de consulta</label>
-            <select name="id_motivo" id="MM" class="form-control form-control-lg">
-              <option>Large select</option>
-            </select>
-          </div>
-          <div class="form-group col-md-2">
-            <label for="YYY">Motivo de consulta</label>
-            <select name="" id="YYY" class="form-control form-control-lg">
-              <option>Large select</option>
-            </select>
+            <datepicker></datepicker>
           </div>
           <div class="form-group col-md-6">
             <label for="Motivo">Motivo de consulta</label>
-            <select name="" id="Motivo" class="form-control form-control-lg">
-              <option>Large select</option>
-            </select>
+            <input name="motivo" type="text" id="Motivo" class="form-control form-control-lg">
           </div>
         </div>
         <div class="row">
-          <a href="/EntrevistaInicial">
+          <a >
             <button
-              type="button"
+              type="submit"
               class="btn btn-primary mx-auto btn-lg"
               style="background-color: #76cee6"
             >
@@ -86,10 +66,16 @@
   </div>
 </template>
 
+
 <script>
+import Datepicker from 'vuejs-datepicker';
+
 export default {
+  components: {
+    Datepicker
+  },
   mounted() {
     console.log("Component mounted.");
-  },
+  }, 
 };
 </script>

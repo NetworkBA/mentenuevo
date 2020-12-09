@@ -21,11 +21,11 @@
           </div>
           <div class="form-group">
             <label for="Usuario">Usuario</label>
-            <input class="form-control" id="Usuario" name="email"/>
+            <input class="form-control" id="Usuario" name="email" required/>
           </div>
           <div class="form-group">
             <label for="pass">Contraseña</label>
-            <input type="password" class="form-control" id="pass" name="password" />
+            <input type="password" class="form-control" id="pass" name="password" required/>
           </div>
           <div class="row">
             <div class="col">

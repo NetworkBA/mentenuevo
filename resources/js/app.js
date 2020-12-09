@@ -34,6 +34,8 @@ Vue.component('medicos-component', require('./components/Medicos.vue').default);
 Vue.component('addMedico-component', require('./components/AddMedico.vue').default);
 Vue.component('pacientes-component', require('./components/Pacientes.vue').default);
 Vue.component('addpaciente-component', require('./components/AddPaciente.vue').default);
+
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application

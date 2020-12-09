@@ -55,8 +55,10 @@ class PacientesController extends Controller
 
     public function update(Request $request, $id)
     {
+    
+        dd($request);    
         $paciente = User::find($id);
-
+        
         $paciente->name             = $request->name;
         $paciente->email            = $request->email;
         $paciente->password         = $request->password;
@@ -65,7 +67,7 @@ class PacientesController extends Controller
         $paciente->sexo             = $request->sexo;
         $paciente->telefono         = $request->telefono;
         $paciente->fecha_nacimiento = $request->fecha_nacimiento;
-        $paciente->id_motivo        = $request->id_motivo;
+        $paciente->id_motivo        = $request->motivo_consulta;
         $paciente->save();
 
         return response()->json([
