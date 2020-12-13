@@ -103,7 +103,9 @@ Route::post('/contacto/store',[ContactosController::class,'store'])->name('conta
     Route::get('/especialista/ver/{id}',[EspecialistasController::class,'show'])->name('especialista.ver');
     Route::get('/especialista/editar/{id}',[EspecialistasController::class,'edit'])->name('especialista.editar');
     Route::post('/especialista/actualizar',[EspecialistasController::class,'update'])->name('especialista.actualizar');
-    Route::delete('/especialista/eliminar/{id}',[EspecialistasController::class,'destroy'])->name('especialista.eliminar');    
+    Route::delete('/especialista/eliminar/{id}',[EspecialistasController::class,'destroy'])->name('especialista.eliminar'); 
+    Route::get('/dashboardEspecialista',[EspecialistasController::class,'dashboardEspecialista'])->name('especialista.dashboard');   
+    
 
     //Pacientes
     Route::get('/paciente/crear',[PacientesController::class,'create'])->name('paciente.crear');
