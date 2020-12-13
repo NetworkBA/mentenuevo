@@ -14,6 +14,10 @@ class EspecialistasController extends Controller
         return response()->json(['especialistas'=>$especialistas]);
     }
 
+    public function dashboardEspecialista(){
+        return view ('Especialistas.dashboard');
+    }
+
     public function create()
     {
        return view('Especialistas.create');
