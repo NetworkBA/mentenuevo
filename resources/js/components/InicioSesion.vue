@@ -21,7 +21,7 @@
           </div>
           <div class="form-group">
             <label for="Usuario">Usuario</label>
-            <input class="form-control" id="Usuario" name="email" required/>
+            <input class="form-control" id="Usuario" name="username" required/>
           </div>
           <div class="form-group">
             <label for="pass">Contraseña</label>

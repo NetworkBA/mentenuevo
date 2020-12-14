@@ -19,19 +19,15 @@
         </div>
         <div class="row">
           <div class="form-group col-md-6">
-            <label for="sex">Nacionalidad</label>
+            <label for="sex">Sexo</label>
             <div  id="sex">
               <div name="sexo" class="col">
-                <div>
-                  <input type="radio" id="huey" name="drone" value="huey"
+                  <input type="radio" id="Masculina" name="sexo" value="M"
                         checked>
-                  <label for="huey">Huey</label>
-                </div>
+                  <label for="Masculina">Masculina</label>
 
-                <div>
-                  <input type="radio" id="dewey" name="drone" value="dewey">
-                  <label for="dewey">Dewey</label>
-                </div>
+                  <input type="radio" id="Femenina" name="sexo" value="F">
+                  <label for="Femenina">Femenina</label>
               </div>
             </div>
           </div>
@@ -43,7 +39,7 @@
         <div class="row">
           <div class="form-group col-md-4">
             <label for="DD">Fecha de Nacimiento</label>
-            <datepicker></datepicker>
+            <datepicker name="fecha_nacimiento"></datepicker>
           </div>
           <div class="form-group col-md-6">
             <label for="Motivo">Motivo de consulta</label>

@@ -17,6 +17,7 @@ return array(
     'App\\Http\\Controllers\\Auth\\LoginController' => $baseDir . '/app/Http/Controllers/Auth/LoginController.php',
     'App\\Http\\Controllers\\ContactosController' => $baseDir . '/app/Http/Controllers/ContactosController.php',
     'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
+    'App\\Http\\Controllers\\EntrevistaInicialController' => $baseDir . '/app/Http/Controllers/EntrevistaInicialController.php',
     'App\\Http\\Controllers\\EspecialistasController' => $baseDir . '/app/Http/Controllers/EspecialistasController.php',
     'App\\Http\\Controllers\\MiniExamenMentalController' => $baseDir . '/app/Http/Controllers/MiniExamenMentalController.php',
     'App\\Http\\Controllers\\PacientesController' => $baseDir . '/app/Http/Controllers/PacientesController.php',

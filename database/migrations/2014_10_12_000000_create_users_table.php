@@ -20,7 +20,7 @@ class CreateUsersTable extends Migration
             $table->string('nacionalidad')->nullable();
             $table->char('sexo', 1)->nullable();  
             $table->string('telefono')->nullable();  
-            $table->timestamp('fecha_nacimiento', 0)->nullable();        
+            $table->string('fecha_nacimiento')->nullable();        
             $table->string('email')->unique();
             $table->foreignId('id_tipo')->default(3);   
             $table->foreign('id_tipo')->references('id')->on('tipo_usuarios');

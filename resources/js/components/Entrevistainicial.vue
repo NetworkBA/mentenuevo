@@ -15,80 +15,81 @@
               <label for="ap">Fecha</label>
             </div>
             <div class="col-md-2">
-              <input class="form-control" id="na" />
+              <input class="form-control" id="na" name="fecha" />
             </div>
           </div>
           <div class="row"><strong>Datos Personales</strong></div>
           <div class="row">
             <div class="col-md-6">
               <label for="name">Apellidos:</label>
-              <input class="form-control" id="name" />
+              <input class="form-control" id="name" name="apellidos" />
             </div>
             <div class="col-md-6">
               <label for="ap">Nombre:</label>
-              <input class="form-control" id="na" />
+              <input class="form-control" id="na" name="nombre" />
             </div>
           </div>
           <div class="row">
             <div class="col-md-3">
               <label for="name">Edad:</label>
-              <input class="form-control" id="name" />
+              <input class="form-control" id="name" name="edad"/>
             </div>
             <div class="col-md-3">
               <label for="name">Estudios:</label>
-              <input class="form-control" id="name" />
+              <input class="form-control" id="name" name="estudios"/>
             </div>
             <div class="col-md-3">
               <label for="name">Profesión:</label>
-              <input class="form-control" id="name" />
+              <input class="form-control" id="name" name="profesion" />
             </div>
             <div class="col-md-3">
               <label for="name">Situación laboral:</label>
-              <input class="form-control" id="name" />
+              <input class="form-control" id="name" name="situacion_laboral" />
             </div>
           </div>
           <div class="row">
             <div class="col-md-6">
               <label for="name">Estado Civil:</label>
-              <input class="form-control" id="name" />
+              <input class="form-control" id="name" name="estado_civil"/>
             </div>
           </div>
           <div class="row">
             <div class="col-md-6">
               <label for="name">Con quién vive:</label>
-              <input class="form-control" id="name" />
+              <input class="form-control" id="name" name="q1" />
             </div>
           </div>
           <div class="row">
             <div class="col-md-6">
               <label for="name">Dónde Trabaja/Estudia:</label>
-              <input class="form-control" id="name" />
+              <input class="form-control" id="name" name="q2" />
             </div>
           </div>
           <div class="row">
             <div class="col-md-6">
               <label for="name">Fecha de Nacimiento:</label>
-              <input class="form-control" id="name" />
+              <!-- <input class="form-control" id="name" name="fecha_nacimiento"/>  -->
+              <datepicker name="fecha_nacimiento"></datepicker>
             </div>
             <div class="col-md-6">
               <label for="name">Lugar:</label>
-              <input class="form-control" id="name" />
+              <input class="form-control" id="name" name="q3"/>
             </div>
           </div>
           <div class="row">
             <div class="col-md-6">
               <label for="name">Dirección:</label>
-              <input class="form-control" id="name" />
+              <input class="form-control" id="name" name="q4" />
             </div>
           </div>
           <div class="row">
             <div class="col-md-6">
               <label for="name">Tel:</label>
-              <input class="form-control" id="name" />
+              <input class="form-control" id="name" name="q5" />
             </div>
             <div class="col-md-6">
               <label for="name">E-mail:</label>
-              <input class="form-control" id="name" />
+              <input class="form-control" id="name" name="q6" />
             </div>
           </div>
           <div class="row">
@@ -97,13 +98,13 @@
                 >¿Existe algún problema si recibe alguna llamada telefónica
                 nuestra?</label
               >
-              <input class="form-control" id="name" />
+              <input class="form-control" id="name" name="q8" />
             </div>
           </div>
           <div class="row">
             <div class="col-md-12">
               <label for="name">Rasgos físicos distintivos</label>
-              <input class="form-control" id="name" />
+              <input class="form-control" id="name" name="q9" />
             </div>
           </div>
           <div class="row">
@@ -118,7 +119,7 @@
                 >Descríbame, lo más detalladamente posible, el motivo de su
                 consulta:
               </label>
-              <input class="form-control" id="name" />
+              <input class="form-control" id="name" name="q10"/>
             </div>
           </div>
           <div class="row">
@@ -127,7 +128,7 @@
                 >Descríbame lo mejor posible qué le pasa (¿Qué hace, qué siente,
                 qué piensa sobre el problema que le ha traído aquí?)</label
               >
-              <input class="form-control" id="name" />
+              <input class="form-control" id="name" name="q11" />
             </div>
           </div>
           <div class="row">
@@ -136,7 +137,7 @@
                 >¿Podría especificar la última vez que le ocurrió ese problema?
                 ¿Qué, cuándo, dónde y cómo le ocurrió?</label
               >
-              <input class="form-control" id="name" />
+              <input class="form-control" id="name" name="q12" />
             </div>
           </div>
           <div class="row">
@@ -144,19 +145,19 @@
               <label for="name"
                 >En general, ¿con qué frecuencia le ocurre ese problema?</label
               >
-              <input class="form-control" id="name" />
+              <input class="form-control" id="name" name="q13" />
             </div>
           </div>
           <div class="row">
             <div class="col-md-12">
               <label for="name">¿Cuál es su duración?</label>
-              <input class="form-control" id="name" />
+              <input class="form-control" id="name" name="q14"/>
             </div>
           </div>
           <div class="row">
             <div class="col-md-12">
               <label for="name">¿Con qué intensidad ocurre?</label>
-              <input class="form-control" id="name" />
+              <input class="form-control" id="name" name="q15"/>
             </div>
           </div>
           <div class="row">
@@ -166,7 +167,7 @@
                 muchísimo), ¿en qué medida considera que estas manifestaciones
                 le afectan en su vida cotidiana?</label
               >
-              <input class="form-control" id="name" />
+              <input class="form-control" id="name" name="q15" />
             </div>
           </div>
           <div class="row">
@@ -175,13 +176,13 @@
                 >¿Ocurre, especialmente, en alguna/s situación/es?; por favor,
                 descríbala/s</label
               >
-              <input class="form-control" id="name" />
+              <input class="form-control" id="name" name="q16"/>
             </div>
           </div>
           <div class="row">
             <div class="col-md-12">
               <label for="name">¿Cuándo empezaron esas manifestaciones?</label>
-              <input class="form-control" id="name" />
+              <input class="form-control" id="name" name="q17"/>
             </div>
           </div>
         </div>
@@ -192,7 +193,7 @@
                 >¿Podría describirme qué, cuándo, cómo y dónde le ocurrieron la
                 primera vez que aparecieron?</label
               >
-              <input class="form-control" id="name" />
+              <input class="form-control" id="name" name="q18" />
             </div>
           </div>
           <div class="row">
@@ -201,7 +202,7 @@
                 >¿En qué circunstancias? (aclare aspectos de la situación,
                 personas presentes, antecedentes y consecuentes)</label
               >
-              <input class="form-control" id="name" />
+              <input class="form-control" id="name" name="q19" />
             </div>
           </div>
           <div class="row">
@@ -210,7 +211,7 @@
                 >Desde entonces, ¿cree que esas manifestaciones se han
                 agravado?</label
               >
-              <input class="form-control" id="name" />
+              <input class="form-control" id="name" name="q20" />
             </div>
           </div>
           <div class="row">
@@ -219,7 +220,7 @@
                 >¿Ha buscado ayuda anteriormente para resolver este
                 problema?</label
               >
-              <input class="form-control" id="name" />
+              <input class="form-control" id="name" name="q21" />
             </div>
           </div>
           <div class="row">
@@ -229,7 +230,7 @@
                 tratamientos (en su caso), con qué resultados y en qué fechas
                 ocurrieron:
               </label>
-              <input class="form-control" id="name" />
+              <input class="form-control" id="name" name="q22" />
             </div>
           </div>
           <div class="row">
@@ -237,7 +238,7 @@
               <label for="name"
                 >Finalmente, ¿a qué cree que se debe su problema?</label
               >
-              <input class="form-control" id="name" />
+              <input class="form-control" id="name" name="q23" />
             </div>
           </div>
           <div class="row"><strong>Otros potenciales problemas</strong></div>
@@ -248,7 +249,7 @@
                 situación problemática o manifestación que le parezca anormal o
                 que le produzca sufrimiento?</label
               >
-              <input class="form-control" id="name" />
+              <input class="form-control" id="name" name="q24" />
             </div>
           </div>
           <div class="row">
@@ -259,7 +260,7 @@
                 por los que consulta? Si es así, descríbamelos y dígame en qué
                 momento y situación de su vida aparecieron:
               </label>
-              <input class="form-control" id="name" />
+              <input class="form-control" id="name"  name="q25"/>
             </div>
           </div>
           <div class="row">
@@ -268,7 +269,7 @@
                 >¿Ha sido usted ingresado/a alguna vez por un trastorno
                 psicológico?</label
               >
-              <input class="form-control" id="name" />
+              <input class="form-control" id="name"  name="q26"/>
             </div>
           </div>
           <div class="row">
@@ -279,21 +280,21 @@
                 leer distintas posibilidades y usted me va a decir si le ocurren
                 en el presente:
               </label>
-              <input class="form-control" id="name" />
+              <input class="form-control" id="name" name="q27" />
             </div>
           </div>
           <div class="row">
             <div class="col-md-4">
               <label for="name">DROGAS</label>
-              <input class="form-control" id="name" />
+              <input class="form-control" id="name" name="q28" />
             </div>
             <div class="col-md-4">
               <label for="name">PENSAR QUITARSE LA VIDA</label>
-              <input class="form-control" id="name" />
+              <input class="form-control" id="name" name="q29" />
             </div>
             <div class="col-md-4">
               <label for="name">INSOMNIO </label>
-              <input class="form-control" id="name" />
+              <input class="form-control" id="name" name="q29" />
             </div>
           </div>
         </div>
@@ -1600,8 +1601,14 @@
   </div>
 </template>
 
+
 <script>
+mport Datepicker from 'vuejs-datepicker';
+
 export default {
+  components: {
+    Datepicker
+  },
   data() {
     return {
       mostrar: 1,

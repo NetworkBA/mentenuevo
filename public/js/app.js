@@ -2316,1633 +2316,9 @@ __webpack_require__.r(__webpack_exports__);
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Entrevistainicial.vue?vue&type=script&lang=js& ***!
   \****************************************************************************************************************************************************************************/
 /*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ __webpack_exports__["default"] = ({
-  data: function data() {
-    return {
-      mostrar: 1,
-      tope: 10,
-      buttontext: "Siguiente",
-      typeBtn: "button"
-    };
-  },
-  methods: {
-    Adelante: function Adelante() {
-      if (this.mostrar < this.tope) {
-        this.mostrar += 1;
-        this.buttontext = "Siguiente";
-      } else {
-        this.buttontext = "Enviar";
-        this.typeBtn = "submit";
-      }
-    }
-  }
-});
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: /home/leo/Documentos/GitHub/mentecuatropuntocero/resources/js/components/Entrevistainicial.vue: Unexpected token, expected \";\" (1606:6)\n\n\u001b[0m \u001b[90m 1604 | \u001b[39m\u001b[90m//\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 1605 | \u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 1606 | \u001b[39mmport \u001b[33mDatepicker\u001b[39m from \u001b[32m'vuejs-datepicker'\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m      | \u001b[39m      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 1607 | \u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 1608 | \u001b[39m\u001b[36mexport\u001b[39m \u001b[36mdefault\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 1609 | \u001b[39m  components\u001b[33m:\u001b[39m {\u001b[0m\n    at Parser._raise (/home/leo/Documentos/GitHub/mentecuatropuntocero/node_modules/@babel/parser/lib/index.js:748:17)\n    at Parser.raiseWithData (/home/leo/Documentos/GitHub/mentecuatropuntocero/node_modules/@babel/parser/lib/index.js:741:17)\n    at Parser.raise (/home/leo/Documentos/GitHub/mentecuatropuntocero/node_modules/@babel/parser/lib/index.js:735:17)\n    at Parser.unexpected (/home/leo/Documentos/GitHub/mentecuatropuntocero/node_modules/@babel/parser/lib/index.js:9097:16)\n    at Parser.semicolon (/home/leo/Documentos/GitHub/mentecuatropuntocero/node_modules/@babel/parser/lib/index.js:9079:40)\n    at Parser.parseExpressionStatement (/home/leo/Documentos/GitHub/mentecuatropuntocero/node_modules/@babel/parser/lib/index.js:12190:10)\n    at Parser.parseStatementContent (/home/leo/Documentos/GitHub/mentecuatropuntocero/node_modules/@babel/parser/lib/index.js:11786:19)\n    at Parser.parseStatement (/home/leo/Documentos/GitHub/mentecuatropuntocero/node_modules/@babel/parser/lib/index.js:11650:17)\n    at Parser.parseBlockOrModuleBlockBody (/home/leo/Documentos/GitHub/mentecuatropuntocero/node_modules/@babel/parser/lib/index.js:12232:25)\n    at Parser.parseBlockBody (/home/leo/Documentos/GitHub/mentecuatropuntocero/node_modules/@babel/parser/lib/index.js:12218:10)\n    at Parser.parseTopLevel (/home/leo/Documentos/GitHub/mentecuatropuntocero/node_modules/@babel/parser/lib/index.js:11581:10)\n    at Parser.parse (/home/leo/Documentos/GitHub/mentecuatropuntocero/node_modules/@babel/parser/lib/index.js:13392:10)\n    at parse (/home/leo/Documentos/GitHub/mentecuatropuntocero/node_modules/@babel/parser/lib/index.js:13445:38)\n    at parser (/home/leo/Documentos/GitHub/mentecuatropuntocero/node_modules/@babel/core/lib/parser/index.js:54:34)\n    at parser.next (<anonymous>)\n    at normalizeFile (/home/leo/Documentos/GitHub/mentecuatropuntocero/node_modules/@babel/core/lib/transformation/normalize-file.js:99:38)\n    at normalizeFile.next (<anonymous>)\n    at run (/home/leo/Documentos/GitHub/mentecuatropuntocero/node_modules/@babel/core/lib/transformation/index.js:31:50)\n    at run.next (<anonymous>)\n    at Function.transform (/home/leo/Documentos/GitHub/mentecuatropuntocero/node_modules/@babel/core/lib/transform.js:27:41)\n    at transform.next (<anonymous>)\n    at step (/home/leo/Documentos/GitHub/mentecuatropuntocero/node_modules/gensync/index.js:261:32)\n    at /home/leo/Documentos/GitHub/mentecuatropuntocero/node_modules/gensync/index.js:273:13\n    at async.call.result.err.err (/home/leo/Documentos/GitHub/mentecuatropuntocero/node_modules/gensync/index.js:223:11)");
 
 /***/ }),
 
@@ -4034,10 +2410,6 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vuejs_datepicker__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vuejs-datepicker */ "./node_modules/vuejs-datepicker/dist/vuejs-datepicker.esm.js");
-//
-//
-//
-//
 //
 //
 //
@@ -42232,7 +40604,22 @@ var render = function() {
               _vm._v(" "),
               _vm._m(6),
               _vm._v(" "),
-              _vm._m(7),
+              _c("div", { staticClass: "row" }, [
+                _c(
+                  "div",
+                  { staticClass: "col-md-6" },
+                  [
+                    _c("label", { attrs: { for: "name" } }, [
+                      _vm._v("Fecha de Nacimiento:")
+                    ]),
+                    _vm._v(" "),
+                    _c("datepicker", { attrs: { name: "fecha_nacimiento" } })
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _vm._m(7)
+              ]),
               _vm._v(" "),
               _vm._m(8),
               _vm._v(" "),
@@ -42764,7 +41151,10 @@ var staticRenderFns = [
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "col-md-2" }, [
-        _c("input", { staticClass: "form-control", attrs: { id: "na" } })
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { id: "na", name: "fecha" }
+        })
       ])
     ])
   },
@@ -42784,13 +41174,19 @@ var staticRenderFns = [
       _c("div", { staticClass: "col-md-6" }, [
         _c("label", { attrs: { for: "name" } }, [_vm._v("Apellidos:")]),
         _vm._v(" "),
-        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { id: "name", name: "apellidos" }
+        })
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "col-md-6" }, [
         _c("label", { attrs: { for: "ap" } }, [_vm._v("Nombre:")]),
         _vm._v(" "),
-        _c("input", { staticClass: "form-control", attrs: { id: "na" } })
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { id: "na", name: "nombre" }
+        })
       ])
     ])
   },
@@ -42802,25 +41198,37 @@ var staticRenderFns = [
       _c("div", { staticClass: "col-md-3" }, [
         _c("label", { attrs: { for: "name" } }, [_vm._v("Edad:")]),
         _vm._v(" "),
-        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { id: "name", name: "edad" }
+        })
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "col-md-3" }, [
         _c("label", { attrs: { for: "name" } }, [_vm._v("Estudios:")]),
         _vm._v(" "),
-        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { id: "name", name: "estudios" }
+        })
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "col-md-3" }, [
         _c("label", { attrs: { for: "name" } }, [_vm._v("Profesión:")]),
         _vm._v(" "),
-        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { id: "name", name: "profesion" }
+        })
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "col-md-3" }, [
         _c("label", { attrs: { for: "name" } }, [_vm._v("Situación laboral:")]),
         _vm._v(" "),
-        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { id: "name", name: "situacion_laboral" }
+        })
       ])
     ])
   },
@@ -42832,7 +41240,10 @@ var staticRenderFns = [
       _c("div", { staticClass: "col-md-6" }, [
         _c("label", { attrs: { for: "name" } }, [_vm._v("Estado Civil:")]),
         _vm._v(" "),
-        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { id: "name", name: "estado_civil" }
+        })
       ])
     ])
   },
@@ -42844,7 +41255,10 @@ var staticRenderFns = [
       _c("div", { staticClass: "col-md-6" }, [
         _c("label", { attrs: { for: "name" } }, [_vm._v("Con quién vive:")]),
         _vm._v(" "),
-        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { id: "name", name: "q1" }
+        })
       ])
     ])
   },
@@ -42858,7 +41272,10 @@ var staticRenderFns = [
           _vm._v("Dónde Trabaja/Estudia:")
         ]),
         _vm._v(" "),
-        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { id: "name", name: "q2" }
+        })
       ])
     ])
   },
@@ -42866,20 +41283,13 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "col-md-6" }, [
-        _c("label", { attrs: { for: "name" } }, [
-          _vm._v("Fecha de Nacimiento:")
-        ]),
-        _vm._v(" "),
-        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
-      ]),
+    return _c("div", { staticClass: "col-md-6" }, [
+      _c("label", { attrs: { for: "name" } }, [_vm._v("Lugar:")]),
       _vm._v(" "),
-      _c("div", { staticClass: "col-md-6" }, [
-        _c("label", { attrs: { for: "name" } }, [_vm._v("Lugar:")]),
-        _vm._v(" "),
-        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
-      ])
+      _c("input", {
+        staticClass: "form-control",
+        attrs: { id: "name", name: "q3" }
+      })
     ])
   },
   function() {
@@ -42890,7 +41300,10 @@ var staticRenderFns = [
       _c("div", { staticClass: "col-md-6" }, [
         _c("label", { attrs: { for: "name" } }, [_vm._v("Dirección:")]),
         _vm._v(" "),
-        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { id: "name", name: "q4" }
+        })
       ])
     ])
   },
@@ -42902,13 +41315,19 @@ var staticRenderFns = [
       _c("div", { staticClass: "col-md-6" }, [
         _c("label", { attrs: { for: "name" } }, [_vm._v("Tel:")]),
         _vm._v(" "),
-        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { id: "name", name: "q5" }
+        })
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "col-md-6" }, [
         _c("label", { attrs: { for: "name" } }, [_vm._v("E-mail:")]),
         _vm._v(" "),
-        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { id: "name", name: "q6" }
+        })
       ])
     ])
   },
@@ -42924,7 +41343,10 @@ var staticRenderFns = [
           )
         ]),
         _vm._v(" "),
-        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { id: "name", name: "q8" }
+        })
       ])
     ])
   },
@@ -42938,7 +41360,10 @@ var staticRenderFns = [
           _vm._v("Rasgos físicos distintivos")
         ]),
         _vm._v(" "),
-        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { id: "name", name: "q9" }
+        })
       ])
     ])
   },
@@ -42966,7 +41391,10 @@ var staticRenderFns = [
           )
         ]),
         _vm._v(" "),
-        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { id: "name", name: "q10" }
+        })
       ])
     ])
   },
@@ -42982,7 +41410,10 @@ var staticRenderFns = [
           )
         ]),
         _vm._v(" "),
-        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { id: "name", name: "q11" }
+        })
       ])
     ])
   },
@@ -42998,7 +41429,10 @@ var staticRenderFns = [
           )
         ]),
         _vm._v(" "),
-        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { id: "name", name: "q12" }
+        })
       ])
     ])
   },
@@ -43012,7 +41446,10 @@ var staticRenderFns = [
           _vm._v("En general, ¿con qué frecuencia le ocurre ese problema?")
         ]),
         _vm._v(" "),
-        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { id: "name", name: "q13" }
+        })
       ])
     ])
   },
@@ -43026,7 +41463,10 @@ var staticRenderFns = [
           _vm._v("¿Cuál es su duración?")
         ]),
         _vm._v(" "),
-        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { id: "name", name: "q14" }
+        })
       ])
     ])
   },
@@ -43040,7 +41480,10 @@ var staticRenderFns = [
           _vm._v("¿Con qué intensidad ocurre?")
         ]),
         _vm._v(" "),
-        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { id: "name", name: "q15" }
+        })
       ])
     ])
   },
@@ -43056,7 +41499,10 @@ var staticRenderFns = [
           )
         ]),
         _vm._v(" "),
-        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { id: "name", name: "q15" }
+        })
       ])
     ])
   },
@@ -43072,7 +41518,10 @@ var staticRenderFns = [
           )
         ]),
         _vm._v(" "),
-        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { id: "name", name: "q16" }
+        })
       ])
     ])
   },
@@ -43086,7 +41535,10 @@ var staticRenderFns = [
           _vm._v("¿Cuándo empezaron esas manifestaciones?")
         ]),
         _vm._v(" "),
-        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { id: "name", name: "q17" }
+        })
       ])
     ])
   },
@@ -43102,7 +41554,10 @@ var staticRenderFns = [
           )
         ]),
         _vm._v(" "),
-        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { id: "name", name: "q18" }
+        })
       ])
     ])
   },
@@ -43118,7 +41573,10 @@ var staticRenderFns = [
           )
         ]),
         _vm._v(" "),
-        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { id: "name", name: "q19" }
+        })
       ])
     ])
   },
@@ -43134,7 +41592,10 @@ var staticRenderFns = [
           )
         ]),
         _vm._v(" "),
-        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { id: "name", name: "q20" }
+        })
       ])
     ])
   },
@@ -43150,7 +41611,10 @@ var staticRenderFns = [
           )
         ]),
         _vm._v(" "),
-        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { id: "name", name: "q21" }
+        })
       ])
     ])
   },
@@ -43166,7 +41630,10 @@ var staticRenderFns = [
           )
         ]),
         _vm._v(" "),
-        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { id: "name", name: "q22" }
+        })
       ])
     ])
   },
@@ -43180,7 +41647,10 @@ var staticRenderFns = [
           _vm._v("Finalmente, ¿a qué cree que se debe su problema?")
         ]),
         _vm._v(" "),
-        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { id: "name", name: "q23" }
+        })
       ])
     ])
   },
@@ -43204,7 +41674,10 @@ var staticRenderFns = [
           )
         ]),
         _vm._v(" "),
-        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { id: "name", name: "q24" }
+        })
       ])
     ])
   },
@@ -43220,7 +41693,10 @@ var staticRenderFns = [
           )
         ]),
         _vm._v(" "),
-        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { id: "name", name: "q25" }
+        })
       ])
     ])
   },
@@ -43236,7 +41712,10 @@ var staticRenderFns = [
           )
         ]),
         _vm._v(" "),
-        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { id: "name", name: "q26" }
+        })
       ])
     ])
   },
@@ -43252,7 +41731,10 @@ var staticRenderFns = [
           )
         ]),
         _vm._v(" "),
-        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { id: "name", name: "q27" }
+        })
       ])
     ])
   },
@@ -43264,7 +41746,10 @@ var staticRenderFns = [
       _c("div", { staticClass: "col-md-4" }, [
         _c("label", { attrs: { for: "name" } }, [_vm._v("DROGAS")]),
         _vm._v(" "),
-        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { id: "name", name: "q28" }
+        })
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "col-md-4" }, [
@@ -43272,13 +41757,19 @@ var staticRenderFns = [
           _vm._v("PENSAR QUITARSE LA VIDA")
         ]),
         _vm._v(" "),
-        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { id: "name", name: "q29" }
+        })
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "col-md-4" }, [
         _c("label", { attrs: { for: "name" } }, [_vm._v("INSOMNIO ")]),
         _vm._v(" "),
-        _c("input", { staticClass: "form-control", attrs: { id: "name" } })
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { id: "name", name: "q29" }
+        })
       ])
     ])
   },
@@ -45822,7 +44313,7 @@ var render = function() {
                   _vm._v("Fecha de Nacimiento")
                 ]),
                 _vm._v(" "),
-                _c("datepicker")
+                _c("datepicker", { attrs: { name: "fecha_nacimiento" } })
               ],
               1
             ),
@@ -45876,36 +44367,27 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
       _c("div", { staticClass: "form-group col-md-6" }, [
-        _c("label", { attrs: { for: "sex" } }, [_vm._v("Nacionalidad")]),
+        _c("label", { attrs: { for: "sex" } }, [_vm._v("Sexo")]),
         _vm._v(" "),
         _c("div", { attrs: { id: "sex" } }, [
           _c("div", { staticClass: "col", attrs: { name: "sexo" } }, [
-            _c("div", [
-              _c("input", {
-                attrs: {
-                  type: "radio",
-                  id: "huey",
-                  name: "drone",
-                  value: "huey",
-                  checked: ""
-                }
-              }),
-              _vm._v(" "),
-              _c("label", { attrs: { for: "huey" } }, [_vm._v("Huey")])
-            ]),
+            _c("input", {
+              attrs: {
+                type: "radio",
+                id: "Masculina",
+                name: "sexo",
+                value: "M",
+                checked: ""
+              }
+            }),
             _vm._v(" "),
-            _c("div", [
-              _c("input", {
-                attrs: {
-                  type: "radio",
-                  id: "dewey",
-                  name: "drone",
-                  value: "dewey"
-                }
-              }),
-              _vm._v(" "),
-              _c("label", { attrs: { for: "dewey" } }, [_vm._v("Dewey")])
-            ])
+            _c("label", { attrs: { for: "Masculina" } }, [_vm._v("Masculina")]),
+            _vm._v(" "),
+            _c("input", {
+              attrs: { type: "radio", id: "Femenina", name: "sexo", value: "F" }
+            }),
+            _vm._v(" "),
+            _c("label", { attrs: { for: "Femenina" } }, [_vm._v("Femenina")])
           ])
         ])
       ]),
@@ -46192,7 +44674,7 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("input", {
         staticClass: "form-control",
-        attrs: { id: "Usuario", name: "email", required: "" }
+        attrs: { id: "Usuario", name: "username", required: "" }
       })
     ])
   },

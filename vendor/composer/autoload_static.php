@@ -594,6 +594,7 @@ class ComposerStaticInit27b9340f57138ccf5b3b5af64639895a
         'App\\Http\\Controllers\\Auth\\LoginController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/LoginController.php',
         'App\\Http\\Controllers\\ContactosController' => __DIR__ . '/../..' . '/app/Http/Controllers/ContactosController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Controllers\\EntrevistaInicialController' => __DIR__ . '/../..' . '/app/Http/Controllers/EntrevistaInicialController.php',
         'App\\Http\\Controllers\\EspecialistasController' => __DIR__ . '/../..' . '/app/Http/Controllers/EspecialistasController.php',
         'App\\Http\\Controllers\\MiniExamenMentalController' => __DIR__ . '/../..' . '/app/Http/Controllers/MiniExamenMentalController.php',
         'App\\Http\\Controllers\\PacientesController' => __DIR__ . '/../..' . '/app/Http/Controllers/PacientesController.php',

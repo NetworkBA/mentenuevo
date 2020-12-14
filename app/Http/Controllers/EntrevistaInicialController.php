@@ -34,7 +34,7 @@ class EntrevistaInicialController extends Controller
      */
     public function store(Request $request)
     {
-       // dd($request);
+        dd($request);
         return view ('ejemploVDG');
        /* return response()->json([
             'estatus' => 'Exitoso',

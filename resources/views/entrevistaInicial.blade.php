@@ -15,6 +15,7 @@
 
 <body>
 	<div id="app" class="content">
+	
 		<header-component></header-component>
 		<form action="{{ route('entrevista.store') }}" method='POST' >
 		   @csrf

@@ -56,7 +56,7 @@ class PacientesController extends Controller
     public function update(Request $request, $id)
     {
     
-        dd($request);    
+        //dd($request);    
         $paciente = User::find($id);
         
         $paciente->name             = $request->name;
@@ -70,9 +70,11 @@ class PacientesController extends Controller
         $paciente->id_motivo        = $request->motivo_consulta;
         $paciente->save();
 
-        return response()->json([
-            'estatus' => 'Exitoso',
-            'mensaje' => 'success','Se han actualizado los detos del paciente.']);
+        return response()->view('entrevistaInicial');
+
+    //        return response()->json([
+//            'estatus' => 'Exitoso',
+//            'mensaje' => 'success','Se han actualizado los detos del paciente.']);
     }
 
     public function destroy($id)
