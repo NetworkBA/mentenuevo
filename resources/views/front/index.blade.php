@@ -1,7 +1,7 @@
 @extends('layouts.front')
 
 @section('body')
-	<header-component></header-component>
+	
 	<div style="background-color: #F0F0F1; padding-top: 80px;padding-bottom: 80px;">
 		<div class="container">
 			<div class="row justify-content-between">

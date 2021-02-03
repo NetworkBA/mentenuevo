@@ -58,9 +58,8 @@
 </head>
 <body>
 	<div id="app" class="content">
-		
+
 		@yield('body')
-		<footer-component></footer-component>
 	</div>
 	<script src="{{asset('js/app.js')}}"></script>
 	<!--Añadimos el js generado con webpack, donde se encuentra nuestro componente vuejs-->
