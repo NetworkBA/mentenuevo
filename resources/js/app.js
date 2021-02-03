@@ -21,7 +21,7 @@ window.Vue = require('vue');
 
 
 
-Vue.component('header-component', require('./components/Header.vue').default);
+Vue.component('header-component', () => import( "./components/Header.vue").default);
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('footer-component', require('./components/Footer.vue').default);
 Vue.component('loginv-component', require('./components/InicioSesion.vue').default);
