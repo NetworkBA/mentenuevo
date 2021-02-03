@@ -1,7 +1,7 @@
 @extends('layouts.front')
 
 @section('body')
-
+	<header-component></header-component>
 	<div style="background-color: #F0F0F1; padding-top: 80px;padding-bottom: 80px;">
 		<div class="container">
 			<div class="row justify-content-between">
@@ -18,8 +18,8 @@
 				<div class="col-lg-6">
 					<img src="images/img1.png" class="img-fluid">
 				</div>
-			</div>	
-		</div>	
+			</div>
+		</div>
 	</div>
 
 	<div style="padding-top: 80px;padding-bottom: 80px;">
@@ -38,8 +38,8 @@
 					<br>
 					<h5 style="text-align: right; color: #F5B530;"><b>Piensa, Experimenta y Aprende.</b></h5>
 				</div>
-			</div>	
-		</div>	
+			</div>
+		</div>
 	</div>
 
 	<div style="background-color: #F0F0F1; padding-top: 80px;padding-bottom: 80px;">
@@ -69,9 +69,9 @@
 					<p style="text-align: center"><i>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua."</i></p>
 				</div>
-			</div>	
-		</div>	
+			</div>
+		</div>
 	</div>
-	
+
 
 @endsection
