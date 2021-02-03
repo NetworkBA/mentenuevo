@@ -8,8 +8,6 @@ require('./bootstrap');
 //require('./bower_components');
 window.Vue = require('vue');
 
-
-import header-component from './components/Header.vue';
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
@@ -20,10 +18,7 @@ import header-component from './components/Header.vue';
 
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
-
-
-
-Vue.component('header-component', header-component).default);
+Vue.component('header-component', require('./components/Header.vue').default);
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('footer-component', require('./components/Footer.vue').default);
 Vue.component('loginv-component', require('./components/InicioSesion.vue').default);
